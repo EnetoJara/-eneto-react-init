@@ -22,14 +22,7 @@ module.exports = {
     devtool: "source-map",
     name: "client",
     target: "web",
-    entry: [
-        require.resolve("@babel/register"),
-        require.resolve("react-hot-loader/patch"),
-        require.resolve("core-js"),
-        require.resolve("@babel/runtime/regenerator"),
-        require.resolve("es6-promise/auto"),
-        require.resolve(path.join(__dirname, '../src/main.tsx'))
-    ],
+    entry: require.resolve(path.join(__dirname, '../src/dev.ts')),
     output: {
         path: undefined,
         pathinfo: true,
@@ -96,7 +89,7 @@ module.exports = {
                 use: [{ loader: 'babel-loader' }]
             },
             {
-                test: /\.(css|scss)$/,
+                test: /\.(scss)$/,
                 use: [
                     { loader: 'style-loader' },
                     { loader: 'css-loader' },
@@ -137,6 +130,8 @@ module.exports = {
                     /\.(js|mjs|jsx|ts|tsx)$/,
                     /\.html$/,
                     /\.json$/,
+                    /\.scss$/,
+                    /\.css$/,
                 ],
                 options: {
                     name: "static/media/[name].[ext]",
@@ -164,7 +159,9 @@ module.exports = {
 
         new webpack.DefinePlugin(env.stringified),
 
-        new webpack.HotModuleReplacementPlugin(),
+        new webpack.HotModuleReplacementPlugin({
+            multiStep: true
+        }),
 
         new CaseSensitivePathsPlugin(),
 
