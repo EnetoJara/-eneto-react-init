@@ -16,9 +16,11 @@
     "start": "NODE_ENV=development webpack-dev-server --mode=development --config=config/webpack.dev.js"
   },
   "husky": {
-    "pre-commit": "npm run clean && npm run resolve",
-    "pre-push": "npm run clean",
-    "pre-build": "npm run clean"
+      "hooks": {
+        "pre-commit": "npm run clean && npm run resolve",
+        "pre-push": "npm run clean",
+        "pre-build": "npm run clean"
+    }
   },
   "repository": {
     "type": "git",
