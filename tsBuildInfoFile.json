@@ -149,6 +149,10 @@
         "version": "4984b48a97160eac5282ffeae690315420a626de83ccf6045c36d934c5c957c0",
         "signature": "4984b48a97160eac5282ffeae690315420a626de83ccf6045c36d934c5c957c0"
       },
+      "./src/dev.ts": {
+        "version": "ad64d7a7742a2576e7bb9dfbf98e8e24ac86cc73a57a928d1392572f58490f4c",
+        "signature": "f96782e4bf1b6a2c0213d7cecf557bd1b182247b5d72ff3118387e5f112f349a"
+      },
       "./src/worker.ts": {
         "version": "83cefd70bb3d4f263cb1f128ec34f39ac75147a741707da2bc7002c45f47a70c",
         "signature": "2f79d407b086af7f70ee99da6bf0673a8772b67807c380bcbba9d4d0ec9fb9c0"
@@ -177,17 +181,53 @@
         "version": "b9327c652634ee93dad9bb68b7325823b2a19c0ed2bfdd8b774926e0563920be",
         "signature": "b9327c652634ee93dad9bb68b7325823b2a19c0ed2bfdd8b774926e0563920be"
       },
+      "./src/hoc/header/header-hoc.tsx": {
+        "version": "917892a667511d114710c439a3f6ff834c365717f79d62a744da201f228ac36c",
+        "signature": "b2523bafe91271b82d6bf7c4f1619c74663ec408bcdd8635b38c0528333ab5f1"
+      },
+      "./src/hoc/layout/layout-hoc.tsx": {
+        "version": "c4ab55124ada8c28e59f3c45138cb7c11c37a6d5419fd2587da24cae2332563e",
+        "signature": "016442aeca6090dff346da4256761696195a7a0d61b65389e9f238e3da1ab1cd"
+      },
+      "./src/hoc/main/main-hoc.tsx": {
+        "version": "83b4ea81c81c5ba44728cb512ad1273d83a8cbf113e732563f321e77f6477977",
+        "signature": "24780e30f623fa0b0c9fe4a5c425d2b99c99f6b20d611de70127a9016566ff3f"
+      },
+      "./src/hoc/side-nav/side-nav-hoc.tsx": {
+        "version": "938731feda1c945fda340f9af57a0616510695f6134e35b9e1015db03cad8e6a",
+        "signature": "110fd3875b3424e85d419dde36fbd49a659129b72d3a9ec5149b9254c25c28a2"
+      },
+      "./src/hoc/index.ts": {
+        "version": "34081c5f67c490c5e098868f33491333f07cf81bb827b15036f88f4fcd74e493",
+        "signature": "a95482bf5c2cc818f972e6236a087931198edd41109d0a20bf5c4ed78252d269"
+      },
       "./src/components/app/app-component.tsx": {
-        "version": "55dd0e15d41dea48f55d90ed926b2f98643164b6be373f389493799f0748eb27",
-        "signature": "7a352d894345be439dbf55d9fe0e961143b1b7f9d26a4ffd9d497c24e60dc2aa"
+        "version": "8fe1908f5a1785e73fb183b9debb06cbc0f7b4cab3c0f5250427f1391c16f6a8",
+        "signature": "4d45ca563e49be7cedd64fd0d1feea3ed154f67e085bc17d9bc3af90dcda0595"
       },
       "./src/components/app/index.ts": {
         "version": "12c8f7dbf0d589a2a4b8ed545d74c585dbf6b45e0e627f79d61ac0e967d9edb2",
         "signature": "76fa72901ae605e6dfcceca20280659f53d1000b6be4453c0c689a508118e1ff"
       },
       "./src/main.tsx": {
-        "version": "6d25731c53ea39f0ad4c45a3ec238e3bf9b60375a654c69d294a08d3862f3452",
-        "signature": "a9190fb43abc43193e152369c49f856ec6ba0e4f55d8ed9ae205ccaba9d505ef"
+        "version": "9280de785b6d16383a9b3239e750121bf78bc010923d44c31d792065269528a9",
+        "signature": "7570e087961d2c8e2cb80ab01ccaac796a395263c629449d2ec632e45e157693"
+      },
+      "./src/hoc/header/index.ts": {
+        "version": "c46e50383a2ca559ec845eb03b2ef722bfd3de5898df3933afb0d8e114e837d7",
+        "signature": "75679ba2d23d2f12c0aea1b3d603e7d97f5c3f4000df05b516581ad0edb4f72c"
+      },
+      "./src/hoc/layout/index.ts": {
+        "version": "fb7040d836c358a36d33f55724a302eeeeff9e4b1fc236cd07b1f1a11722463a",
+        "signature": "bf6e7b0c2fcc3067f1885eebadfc3a301857f0ed1dcd3f2bd5e5dc31188258c6"
+      },
+      "./src/hoc/main/index.ts": {
+        "version": "58fdee820f093f830dae233c888716a02de0f8417c4fe3a8ec972d50fb6fd5d4",
+        "signature": "1b19705e25f392cd599d92cb9f8cc4942ae73cbace0ff3dc7bac86dfed978286"
+      },
+      "./src/hoc/side-nav/index.ts": {
+        "version": "6546fbb46d6beed80af26b909b23a2d69988b6d32ba70c9db54b50947b6b9c6a",
+        "signature": "fe9e59c9a2b2802bcbecfcc59b9ac6a6dc898f0c29d986802c609710debc1efa"
       },
       "./node_modules/@types/node/globals.d.ts": {
         "version": "ad77e6a294669d9c365407829ebfb73a6645147bd42668679b8f378e7dd03765",
@@ -204,6 +244,10 @@
       "./node_modules/@types/node/buffer.d.ts": {
         "version": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878",
         "signature": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878"
+      },
+      "./node_modules/@types/events/index.d.ts": {
+        "version": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
+        "signature": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935"
       },
       "./node_modules/@types/node/child_process.d.ts": {
         "version": "cbfb348ae36490c9319d92f1a09859625a06dfa0fb0d6c86cab5c2be2118afb4",
@@ -653,6 +697,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/dev.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/worker.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -700,9 +750,49 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/hoc/header/header-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/layout/layout-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/main/main-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/side-nav/side-nav-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/index.ts": [
+        "./src/hoc/header/header-hoc.tsx",
+        "./src/hoc/layout/layout-hoc.tsx",
+        "./src/hoc/main/main-hoc.tsx",
+        "./src/hoc/side-nav/side-nav-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/components/app/app-component.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/react-hot-loader/index.d.ts",
+        "./src/hoc/index.ts",
+        "./src/hoc/header/header-hoc.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -721,6 +811,34 @@
         "./node_modules/react-hot-loader/index.d.ts",
         "./src/components/app/index.ts",
         "./src/worker.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/header/index.ts": [
+        "./src/hoc/header/header-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/layout/index.ts": [
+        "./src/hoc/layout/layout-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/main/index.ts": [
+        "./src/hoc/main/main-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/side-nav/index.ts": [
+        "./src/hoc/side-nav/side-nav-hoc.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -745,6 +863,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/node/buffer.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/events/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1135,6 +1259,49 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/react-hot-loader/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/header/header-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/hoc/layout/layout-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/hoc/main/main-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/hoc/side-nav/side-nav-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/hoc/index.ts": [
+        "./src/hoc/header/header-hoc.tsx",
+        "./src/hoc/layout/layout-hoc.tsx",
+        "./src/hoc/main/main-hoc.tsx",
+        "./src/hoc/side-nav/side-nav-hoc.tsx"
+      ],
+      "./src/components/app/app-component.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/app/index.ts": [
+        "./src/components/app/app-component.tsx"
+      ],
+      "./src/hoc/header/index.ts": [
+        "./src/hoc/header/header-hoc.tsx"
+      ],
+      "./src/hoc/layout/index.ts": [
+        "./src/hoc/layout/layout-hoc.tsx"
+      ],
+      "./src/hoc/main/index.ts": [
+        "./src/hoc/main/main-hoc.tsx"
+      ],
+      "./src/hoc/side-nav/index.ts": [
+        "./src/hoc/side-nav/side-nav-hoc.tsx"
+      ],
       "./node_modules/@types/node/globals.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1495,22 +1662,14 @@
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/react-hot-loader/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
+      "./src/types/lib.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/components/app/app-component.tsx": [
-        "./node_modules/react-hot-loader/index.d.ts",
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/app/index.ts": [
-        "./src/components/app/app-component.tsx"
-      ],
-      "./src/types/lib.d.ts": [
-        "./node_modules/@types/node/ts3.2/index.d.ts",
+      "./node_modules/@types/events/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1518,22 +1677,32 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "./src/worker.ts",
-      "./node_modules/react-hot-loader/index.d.ts",
-      "./src/components/app/app-component.tsx",
-      "./src/components/app/index.ts",
-      "./src/main.tsx",
-      "./src/types/lib.d.ts",
+      "./src/dev.ts",
       "./node_modules/tslib/tslib.d.ts",
+      "./src/worker.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
+      "./node_modules/react-hot-loader/index.d.ts",
+      "./src/hoc/header/header-hoc.tsx",
+      "./src/hoc/layout/layout-hoc.tsx",
+      "./src/hoc/main/main-hoc.tsx",
+      "./src/hoc/side-nav/side-nav-hoc.tsx",
+      "./src/hoc/index.ts",
+      "./src/components/app/app-component.tsx",
+      "./src/components/app/index.ts",
+      "./src/main.tsx",
+      "./src/hoc/header/index.ts",
+      "./src/hoc/layout/index.ts",
+      "./src/hoc/main/index.ts",
+      "./src/hoc/side-nav/index.ts",
       "./node_modules/@types/node/globals.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
       "./node_modules/@types/node/buffer.d.ts",
+      "./node_modules/@types/events/index.d.ts",
       "./node_modules/@types/node/child_process.d.ts",
       "./node_modules/@types/node/cluster.d.ts",
       "./node_modules/@types/node/console.d.ts",
@@ -1575,6 +1744,7 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
+      "./src/types/lib.d.ts",
       "./node_modules/typescript/lib/lib.es5.d.ts",
       "./node_modules/typescript/lib/lib.es2015.d.ts",
       "./node_modules/typescript/lib/lib.es2016.d.ts",

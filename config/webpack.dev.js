@@ -12,7 +12,6 @@ const WatchMissingNodeModulesPlugin = require("react-dev-utils/WatchMissingNodeM
 const ModuleNotFoundPlugin = require("react-dev-utils/ModuleNotFoundPlugin");
 const vars = require('./var');
 const postcssNormalize = require("postcss-normalize");
-
 const env = vars();
 
 const imageInlineSizeLimit = 1000;
@@ -22,9 +21,11 @@ module.exports = {
     devtool: "source-map",
     name: "client",
     target: "web",
-    entry: require.resolve(path.join(__dirname, '../src/dev.ts')),
+    entry: [
+        require.resolve(path.join(__dirname, '../src/dev.ts'))
+    ],
     output: {
-        path: undefined,
+        path:  path.resolve(__dirname, "../public/"),
         pathinfo: true,
         filename: "static/js/[name]-bundle.js",
         futureEmitAssets: true,
@@ -37,22 +38,14 @@ module.exports = {
     },
     devServer: {
         port: 3001,
-        disableHostCheck: true,
-        compress: true,
-        clientLogLevel: "info",
-        contentBase: path.join(__dirname, '../public/index.html'),
-        watchContentBase: true,
+        contentBase: 'public',
         hot: true,
         stats:{
             colors: true
         },
-        transportMode: "ws",
-        injectClient: false,
-        publicPath: "/",
         quiet: false,
-        https: false,
         host: "localhost",
-        overlay: false,
+        overlay: true,
         historyApiFallback: {
             disableDotRule: true,
         },
@@ -79,6 +72,9 @@ module.exports = {
         },
     },
     resolve: {
+        alias: {
+            'react-dom': '@hot-loader/react-dom',
+          },
         extensions: [".ts", ".tsx", ".js"],
     },
     module: {
@@ -159,9 +155,7 @@ module.exports = {
 
         new webpack.DefinePlugin(env.stringified),
 
-        new webpack.HotModuleReplacementPlugin({
-            multiStep: true
-        }),
+        new webpack.HotModuleReplacementPlugin(),
 
         new CaseSensitivePathsPlugin(),
 

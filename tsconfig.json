@@ -70,11 +70,13 @@
       "./.vscode/",
       "/config/",
       "/node_modules/",
-      "/public/"
+      "/public/",
+      "./src/dev.ts",
+      "./src/prod.ts"
   ],
   "include": [
-      "./src/*.ts",
-      "./src/*.tsx",
+      "./src/worker.ts",
+      "./src/main.tsx",
       "./src/**/*.ts",
       "./src/**/*.tsx",
       "./src/**/**/*.ts",

@@ -7,20 +7,26 @@ import { unregister } from "./worker";
 
 
 
-function init (C: any) {
-    render(<AppContainer>
-        <C />
-    </AppContainer>
-        , document.getElementById("enetito"));
+function init(C: any) {
+    if (process.env.NODE_ENV === "development") {
+        render(<AppContainer>
+            <C />
+        </AppContainer>
+            , document.getElementById("enetito"));
+    } else {
+        render(
+            <C />
+
+            , document.getElementById("enetito"));
+    }
 }
 
 init(App);
 
-if (module.hot) {
-    module.hot.accept("./components/app/app-component.tsx", () => {
-        const { App } = require("./components/app/app-component.tsx");
+if (process.env.NODE_ENV === "development" && module.hot) {
+    module.hot.accept("./components/app", () => {
         init(App);
-    })
+    });
 }
 
 unregister();
