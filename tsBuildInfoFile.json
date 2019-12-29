@@ -234,7 +234,7 @@
         "signature": "de25c073e95a4ba8b4556147c8cef60fa0a7aba72d424dd53d898ec071949a90"
       },
       "./src/components/login/login-component.tsx": {
-        "version": "8ba252eedc2f4dbe6bb5684418ab1064080477d4e85d830138595866bc33e72d",
+        "version": "79c1f03713bbbe8c77f9f5e79e95aa6cdad0a160ed1548201573ff5c8f1210cd",
         "signature": "385e79b220157d625cc643059286cd3d5767859027134d16f4b3d9bf316d512e"
       },
       "./src/components/login/index.ts": {
@@ -242,27 +242,27 @@
         "signature": "0fdf7aa34d6f25682b0d2218a3875420a01c6c58a14870fe02d2bbc327171158"
       },
       "./src/containers/login-container.ts": {
-        "version": "2a47a867779ca4e101551cfaa8d9598f9b3884dd61c5a578bd4187aa64328d46",
-        "signature": "6d9b6abca4a427a0981e8dc5e882972da3a9f3430ae2460661d0963afbd37446"
+        "version": "6419838c3452b47bc126161dc402dd26d7e538584a9296c3d06b12c5aeae1c20",
+        "signature": "d53b02550de144882e7c41a4ad2797fe1a1df03b5a8569f24c5d56ce4c4b41a9"
       },
       "./src/containers/index.tsx": {
-        "version": "1cd4be86b3744a1cbd105dc5676f076ba8f9865435d851c7ce113e6626dfbb12",
+        "version": "0a78a5464c0d89c632199065b271590883a0d64c5355a81364e6c3b0ebf6bbf8",
         "signature": "8c1baf88d71bcc2129e6949a92883871a6a3470e66b904b5f46468a6f20511cc"
       },
       "./src/hoc/header/header-hoc.tsx": {
-        "version": "c0180ee3f1e4bb2fe7f9adaa11b5333cd8228e7c8259e8cf9c67965336395c3b",
+        "version": "3c12064da2f15f808cbe448fa1a5cf13f641572025786512281013ed05d08874",
         "signature": "fb2f2a1a80228e0b1dec5bfceb49aac12de6d81e56e4790a27708c62c61381cf"
       },
       "./src/hoc/layout/layout-hoc.tsx": {
-        "version": "a403a72c37e5685f39cc0736b07df3162cd44be75b67a73593170bbe52b988c5",
+        "version": "22e5ac5bc99bada9582e25471ea2f8472262ace03d43729fe418ff972600d672",
         "signature": "2a995c7c014e881666fc58266ee24dff00e9351b081e8bd01c4ad53af7772c80"
       },
       "./src/hoc/main/main-hoc.tsx": {
-        "version": "cd652de54f1d5d543a563d6a4b1281cd5fe603b1385124f7692d7c27bb3cd626",
+        "version": "63068fbee6ebe41dca3581a8278859fd61dff9e84f4047ee15ffd52f18173334",
         "signature": "20d8fb89f409975b2668daf3a48dcbb6a4517b4d56ae4a08e9992da0ef347cb7"
       },
       "./src/hoc/side-nav/side-nav-hoc.tsx": {
-        "version": "5c7f078c07fb83495e1b185dd5899ac0789068e432b3afbac799494ee3ca0674",
+        "version": "2f6966caa2550b3522aaca43ff33f6065b5438451118e8372324463595dbf983",
         "signature": "a44a4fd0aad2cb8ea8ff36a519d6d589f0a3ded84d839927fcb5458c5baf5855"
       },
       "./src/hoc/index.ts": {
@@ -278,11 +278,11 @@
         "signature": "c048b9659fff2e130bd6408317fa8cc833e50a1e8b8bdbf81544848b2c278c59"
       },
       "./src/utils/constants.ts": {
-        "version": "b4ba888e249d849a7fd9b074a6d8fd3ea6c34970bfe138f48bbaa23206b33811",
+        "version": "5af0f1127fe2a9a4f0a8913cd0c3e1f2f72b11e45aecf8f97ca79a1a72c7b2e0",
         "signature": "548ee1d7a8b9c9b3d5c2961beda9d9f4b93650fdcf2846d15c16106beacd54e5"
       },
       "./src/components/app/app-component.tsx": {
-        "version": "467d86858a2fe9d8e987eb0f1134886212d78e86148402e996d00464d7bda6df",
+        "version": "eebae068e799b188bf62dfcf6a61ba63d282732706217a680c7cb44c2be981e3",
         "signature": "915df05b89c26bfd7a4e5db4100b7fa0545b8617b7cc3887a04a6d26c29a55d9"
       },
       "./src/components/app/index.ts": {
@@ -290,7 +290,7 @@
         "signature": "76fa72901ae605e6dfcceca20280659f53d1000b6be4453c0c689a508118e1ff"
       },
       "./src/main.tsx": {
-        "version": "9e8c2f42e4bee22091be1d23f2720f3596fced4947062c81b12b73c9f2a1410c",
+        "version": "b03cd6dca352137c9f84cb67ffc13c0de86106d95f1cc24a87d5a6e4b30846d8",
         "signature": "94bf2b2d96b9bf699215f9e127ff50efa52a8eb20f76c6e0bdf9ceec7ce50f36"
       },
       "./src/hoc/header/index.ts": {
@@ -310,23 +310,23 @@
         "signature": "fe9e59c9a2b2802bcbecfcc59b9ac6a6dc898f0c29d986802c609710debc1efa"
       },
       "./src/types/resume-app/index.d.ts": {
-        "version": "e846e2de825d6cb06309547dbd1cb9a1b480cd6c0ef480d6e6aded4b0f0d9799",
-        "signature": "e846e2de825d6cb06309547dbd1cb9a1b480cd6c0ef480d6e6aded4b0f0d9799"
+        "version": "433fe86fb314aa376fe578b29c43e9ad4ae89a8b4b6c6a98bd7dd46f72806488",
+        "signature": "433fe86fb314aa376fe578b29c43e9ad4ae89a8b4b6c6a98bd7dd46f72806488"
       },
       "./src/modules/users/users-actions.ts": {
-        "version": "964bd65a625f12816d6ebe5c71ac4fc8edbf076655acab39713995ada821d2a3",
-        "signature": "32112cebd6320df07c2024c2b7830a0c462f569abf37cb644f8d2850b6a9c2bb"
+        "version": "60aa2c6bf8ca20b1d6c8c23c59569db2d3d8483306f56688747f3e76e7d0acf9",
+        "signature": "0f73e654230f2d2023f8aaae562b17c9c568ea60c8420c6a900aa22b8f0417ac"
       },
       "./src/utils/api.ts": {
-        "version": "30f390d03219a9e42dc2979caa20296eb998af51898ce92cc3fd2c7c6d8d5b65",
-        "signature": "3674c8d9694e8c4b39d89fd5dc3df6fbe89e09bd693532ee45eb302bc441c488"
+        "version": "af43514f22769e314d4feb3318ff96f2a8d0f7a6168823337b4e3be3308685e6",
+        "signature": "5f2ff699e4abe93d1bc04d27689badbf4ebbf9591fb7e09152d925223f8577eb"
       },
       "./src/modules/users/users-api.ts": {
-        "version": "1ebd857b4c53432595f66cc7f617dd4779845434064501d7c627713cc7d06875",
+        "version": "ce9ec41d4342bfbb88c7dcac4081755fee8a10b63bb5c2dd1d19eaaae43dab33",
         "signature": "64fd855f296ab2478ddd55cde3cf924c0b138595507088327361a96379ed01dd"
       },
       "./src/modules/users/users-reducer.ts": {
-        "version": "3ad74c3b7d364b54caa9646d71b18c76db8127808201f22c9e657e47c1cc3a6d",
+        "version": "23172a9370595b8f07d1344de8f3d59c0bfd48430937e1a370fd0612c7e0864c",
         "signature": "7cded11386ff2df5440c6c085578a955630587a593ed8912f63090f53be87985"
       },
       "./node_modules/typescript-logic/index.d.ts": {
@@ -366,23 +366,23 @@
         "signature": "d7584f06c8026bc776ac6ec204f7732a7ebc60a3538583132a428264d3743458"
       },
       "./src/modules/users/users-workers.ts": {
-        "version": "d9c9f1cb51e746cc6e0775dbcce84f2e3fa3dc3bd3e7b393c8bae2211a0f9094",
+        "version": "ea8f658b7262b488c73a049f6a376275089dd95700aba6ecbfe460287906bfd0",
         "signature": "29b7b2b58b9755994992e6c9d1a0799b25c30ee6c962b0421144efa6506176ba"
       },
       "./src/modules/users/users-watchers.ts": {
-        "version": "4b37ac1a378aa9753d3eacd29f132c1b1e4bbc674a456ad357d96f26622dd6b7",
+        "version": "0240ee96992f02679274dd36fa65ec732ec56260c4f3374f57df27cb20fbccad",
         "signature": "84cc83ceef46a687bc65da96de4c7526da7cf7d1bb1e5322b373201334cbf2cb"
       },
       "./src/modules/users/index.ts": {
-        "version": "28fe3f07144718a8afdea3204d381a42308736deb5f9ee4e8c75ac7e8e13f0a0",
-        "signature": "e3695ff3ed4832495efa44e96f15c28161bdea5fce760c096f629ff10ec7b053"
+        "version": "c35c7fbe4f1777f36e22d45eacecc9082bce6c57711f80e658adbe44d8420c83",
+        "signature": "019f97db26d1eb642e0fc83aa0bb597c49dddacd6481495754da8e5f843e9644"
       },
       "./src/modules/index.ts": {
-        "version": "d3947853df2e1fcabe21357081dde0953caf7dde267cea162093a3a55c325573",
-        "signature": "37c0a5b81a04e17a4dd38e5bfd2abd5a0d5c1a7cb27019782f648220665e6ecc"
+        "version": "f36c2b54b616d6f69cc903818235176041bca722eb1edbcc3c7337674a2d45bf",
+        "signature": "5112a725ccb0ede6875fc0f0be63be7bb32a94f1174f28ae13343c00e1ede8b8"
       },
       "./src/redux/reducers/index.ts": {
-        "version": "435e44176d7996c677b0c7e13fae4b541fec1db99c63ee770c14ecc223d87fe8",
+        "version": "2312c396186e06893a5956269682bd630391a4d107fa6e310a72b049709db7ac",
         "signature": "86554d3256dbf1870e9cb308274474e80a06ba576581401f994389fd0352c62b"
       },
       "./node_modules/redux-devtools-extension/index.d.ts": {
@@ -394,24 +394,20 @@
         "signature": "7b6e484e6b248b0b2c9393549bae07b882bb50e997f1da5eb2405c33a1fd8c1e"
       },
       "./src/redux/store/dev.ts": {
-        "version": "872ceddae3637354e595b0d0c97c260402bf4f663f45dbd524a675601ee26a8d",
-        "signature": "d893388cc2277ff05f3efa0570df1bbbab3f59a1eada87c1dd004df86b2567d5"
+        "version": "3c24090a48b2f83d739861e151283787f4beecca6e53e4fdd962aef97536d986",
+        "signature": "b8b2219faae3559f97d553c5ebbf7df4fcbdb2d5d83cfd4cfb8f67d8bc3cb178"
       },
       "./src/redux/store/prod.ts": {
-        "version": "b7e0a6ad834e7fc51d36b216cf244fd9e6ab6eb440626722e5b28fc259a3a2af",
-        "signature": "ae6a9b081eb9fae429bdd4645c2400ce6d1d808491bdbec6392993f4731500d6"
+        "version": "bf913dcae8b5fc416ac80997fb864a3acf524dd2fdf499766140e545bb8f1175",
+        "signature": "87347c1657657c0d6591fc99ad9ef3fc92d25f68b37ccbacab6627cc88e02a54"
       },
       "./src/redux/store/index.ts": {
-        "version": "ef0a6e06d66e9949e9e658f9f9934bcf65a5c4d5b370b033e95b18e372c7ffe3",
+        "version": "c587f2590e43ad7246ccd4a34a52016ca34e14e11da527d7d60c8922e7b44048",
         "signature": "887d4a5edd3b5eb1d276373cedac1ab5a6e23e5aeac159613faa569441ab07b6"
       },
       "./src/types/lib.d.ts": {
-        "version": "e6917cb39051a55860b071a58568376cdae040cdd6bf03ef235c02023d5d2f2c",
-        "signature": "e6917cb39051a55860b071a58568376cdae040cdd6bf03ef235c02023d5d2f2c"
-      },
-      "./src/utils/axios.ts": {
-        "version": "83767b937a15419b425c62406073de835ca9a9bb07740c6c54b688da65827e5f",
-        "signature": "18165070aa59345864eade13db99960c5ce93d187c372f62b02e427e919ee139"
+        "version": "0034bcababee2d647bbc894fe0acd01e03c61bfc250ced88c74ca3a2e351c328",
+        "signature": "0034bcababee2d647bbc894fe0acd01e03c61bfc250ced88c74ca3a2e351c328"
       },
       "./node_modules/@types/node/globals.d.ts": {
         "version": "ad77e6a294669d9c365407829ebfb73a6645147bd42668679b8f378e7dd03765",
@@ -1387,13 +1383,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/utils/axios.ts": [
-        "./node_modules/axios/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./node_modules/@types/node/globals.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -2145,6 +2134,11 @@
         "./node_modules/@types/react-redux/index.d.ts",
         "./src/components/login/index.ts"
       ],
+      "./src/containers/index.tsx": [
+        "./src/components/login/login-component.tsx",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react-loadable/index.d.ts"
+      ],
       "./src/hoc/header/header-hoc.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -2294,7 +2288,10 @@
       ],
       "./src/modules/users/index.ts": [
         "./src/modules/users/users-actions.ts",
-        "./src/modules/users/users-reducer.ts"
+        "./src/modules/users/users-api.ts",
+        "./src/modules/users/users-reducer.ts",
+        "./src/modules/users/users-watchers.ts",
+        "./src/modules/users/users-workers.ts"
       ],
       "./src/modules/index.ts": [
         "./src/modules/users/index.ts"
@@ -2335,9 +2332,6 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/utils/axios.ts": [
-        "./node_modules/axios/index.d.ts"
       ],
       "./node_modules/@types/node/globals.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -2704,50 +2698,33 @@
         "./node_modules/@types/node/ts3.2/globals.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
-      ],
-      "./src/containers/index.tsx": [
-        "./src/components/login/login-component.tsx",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react-loadable/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "./node_modules/typescript/lib/lib.es5.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.d.ts",
-      "./node_modules/typescript/lib/lib.es2016.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.d.ts",
-      "./node_modules/typescript/lib/lib.dom.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.array.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.object.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "./src/components/login/login-component.tsx",
+      "./src/containers/login-container.ts",
+      "./src/containers/index.tsx",
+      "./src/hoc/header/header-hoc.tsx",
+      "./src/hoc/layout/layout-hoc.tsx",
+      "./src/hoc/main/main-hoc.tsx",
+      "./src/hoc/side-nav/side-nav-hoc.tsx",
+      "./src/utils/constants.ts",
+      "./src/components/app/app-component.tsx",
+      "./src/main.tsx",
+      "./src/types/resume-app/index.d.ts",
+      "./src/modules/users/users-actions.ts",
+      "./src/utils/api.ts",
+      "./src/modules/users/users-api.ts",
+      "./src/modules/users/users-reducer.ts",
+      "./src/modules/users/users-workers.ts",
+      "./src/modules/users/users-watchers.ts",
+      "./src/modules/users/index.ts",
+      "./src/modules/index.ts",
+      "./src/redux/reducers/index.ts",
+      "./src/redux/store/dev.ts",
+      "./src/redux/store/prod.ts",
+      "./src/redux/store/index.ts",
+      "./src/types/lib.d.ts",
       "./node_modules/tslib/tslib.d.ts",
       "./src/worker.ts",
       "./node_modules/@types/react/global.d.ts",
@@ -2770,28 +2747,15 @@
       "./node_modules/redux/index.d.ts",
       "./node_modules/@types/hoist-non-react-statics/index.d.ts",
       "./node_modules/@types/react-redux/index.d.ts",
-      "./src/components/login/login-component.tsx",
       "./src/components/login/index.ts",
-      "./src/containers/login-container.ts",
-      "./src/hoc/header/header-hoc.tsx",
-      "./src/hoc/layout/layout-hoc.tsx",
-      "./src/hoc/main/main-hoc.tsx",
-      "./src/hoc/side-nav/side-nav-hoc.tsx",
       "./src/hoc/index.ts",
       "./node_modules/axios/index.d.ts",
       "./node_modules/@types/qs/index.d.ts",
-      "./src/utils/constants.ts",
       "./src/components/app/index.ts",
-      "./src/main.tsx",
       "./src/hoc/header/index.ts",
       "./src/hoc/layout/index.ts",
       "./src/hoc/main/index.ts",
       "./src/hoc/side-nav/index.ts",
-      "./src/types/resume-app/index.d.ts",
-      "./src/modules/users/users-actions.ts",
-      "./src/utils/api.ts",
-      "./src/modules/users/users-api.ts",
-      "./src/modules/users/users-reducer.ts",
       "./node_modules/typescript-logic/index.d.ts",
       "./node_modules/typescript-compare/index.d.ts",
       "./node_modules/typescript-tuple/lib/utils.d.ts",
@@ -2801,18 +2765,8 @@
       "./node_modules/@redux-saga/core/types/ts3.6/index.d.ts",
       "./node_modules/@redux-saga/core/types/ts3.6/effects.d.ts",
       "./node_modules/redux-saga/effects.d.ts",
-      "./src/modules/users/users-workers.ts",
-      "./src/modules/users/users-watchers.ts",
-      "./src/modules/users/index.ts",
-      "./src/modules/index.ts",
-      "./src/redux/reducers/index.ts",
       "./node_modules/redux-devtools-extension/index.d.ts",
       "./node_modules/redux-saga/index.d.ts",
-      "./src/redux/store/dev.ts",
-      "./src/redux/store/prod.ts",
-      "./src/redux/store/index.ts",
-      "./src/types/lib.d.ts",
-      "./src/utils/axios.ts",
       "./node_modules/@types/node/globals.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
@@ -2859,8 +2813,42 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./src/containers/index.tsx",
-      "./src/components/app/app-component.tsx"
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.bigint.d.ts"
     ]
   },
   "version": "3.7.4"
