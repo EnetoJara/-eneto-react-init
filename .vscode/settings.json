@@ -113,9 +113,10 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "workbench.colorTheme": "enetito-theme",
-    "editor.fontFamily": "'Fira Code iScript', 'Operator Mono', 'Cascadia Code'",
+    "editor.fontFamily": "'Cascadia Code','Operator Mono','Fira Code iScript'",
     "editor.acceptSuggestionOnCommitCharacter": true,
     "editor.autoSurround": "languageDefined",
+    "editor.fontWeight": "100",
     "autoimport.doubleQuotes": true,
     "editor.suggest.showColors": true,
     "editor.fontLigatures": true,
@@ -163,8 +164,9 @@
     "npm-intellisense.scanDevDependencies": true,
     "npm-intellisense.importQuotes": "\"",
     "npm-intellisense.packageSubfoldersIntellisense": true,
+    "editor.fontSize": 14,
     "dependencyAnalyticsServer.trace.server": "verbose",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "vs-kubernetes": {
         "vs-kubernetes.helm-path": "/home/eneto/.vs-kubernetes/tools/helm/linux-amd64/helm",
         "vs-kubernetes.draft-path": "/home/eneto/.vs-kubernetes/tools/draft/linux-amd64/draft",

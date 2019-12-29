@@ -49,21 +49,29 @@ module.exports = api => {
                 ["@babel/preset-env", {
                     targets: {
                         node: "current",
-                        esmodules: false
+                        browsers: [
+                            ">1%",
+                            "last 4 versions",
+                            "ie >= 11",
+                            "edge >= 16",
+                            "firefox >= 43",
+                            "Firefox ESR",
+                            "chrome >= 47",
+                            "ChromeAndroid >= 69.0",
+                            "safari >= 11"
+                          ],
+
                     },
                     useBuiltIns: "entry",
                     corejs: 3,
-                    modules: "amd"
+                    modules: false
                 }],
                 "@babel/preset-react",
                 "@babel/preset-typescript"
             ],
             plugins: [
-                ["@babel/plugin-syntax-dynamic-import"],
-                ["@babel/plugin-transform-react-constant-elements"],
-                ["@babel/plugin-transform-react-inline-elements"],
                 "@babel/plugin-transform-runtime",
-                "@babel/plugin-transform-modules-amd",
+                ["@babel/plugin-syntax-dynamic-import"],
                 ["@babel/plugin-transform-async-to-generator"],
                 ["@babel/plugin-proposal-object-rest-spread"],
                 ["@babel/plugin-transform-object-super"],

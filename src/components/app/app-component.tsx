@@ -10,11 +10,11 @@ function MainComponent (): React.ReactElement {
         <Layout>
             <BrowserRouter>
                 <SideNav>
-                    <nav>side nav component fdlflk</nav>
+                    <nav>SideNav</nav>
                 </SideNav>
                 <Main>
                     <Header>
-                        <div>son 1</div>
+                        <div>Header</div>
                         <div>son 2</div>
                     </Header>
                     <main>

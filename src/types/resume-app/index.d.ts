@@ -1,5 +1,3 @@
-// / <reference types="redux" />
-
 import { Action } from "redux";
 
 declare module "resume-app" {

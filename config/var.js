@@ -31,6 +31,7 @@ module.exports = function () {
             {
                 NODE_ENV,
                 PUBLIC_URL: process.env.ENETO_PUBLIC_URL,
+                GENERATE_SOURCEMAP: process.env.GENERATE_SOURCEMAP,
             }
         );
     const stringified = {

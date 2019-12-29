@@ -77,6 +77,14 @@ module.exports = {
         "react/jsx-indent": ["error",4],
         "max-len": ["error", 120],
         "@typescript-eslint/no-explicit-any": 0,
-        "@typescript-eslint/explicit-function-return-type": 0
+        "@typescript-eslint/explicit-function-return-type": 0,
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/boolean-prop-naming": "error",
+        "react/button-has-type": "error",
+        "react/destructuring-assignment": ["error", "always"],
+        "react/forbid-component-props": "error",
+        "react/no-access-state-in-setstate": "error",
+        "react/no-typos": "error",
     }
 };

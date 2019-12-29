@@ -21,6 +21,7 @@ export function login (credentials: LoginCredentials): AppAction<LOGIN_REQUEST, 
     };
 }
 
+export type LoginRequest = typeof login;
 /**
  * Action creator. triggered once the user has been login successfully.
  *
@@ -33,7 +34,7 @@ export function loginSuccess (user: UserState): AppAction<LOGIN_SUCCESS, UserSta
         payload: user
     };
 }
-
+export type LoginSuccess = typeof loginSuccess;
 /**
  * Action creator. triggered when the user could not login.
  *
@@ -46,7 +47,7 @@ export function loginFailed (error: Error): AppAction<LOGIN_FAILED, Error> {
         payload: error
     };
 }
-
+export type LoginFailed = typeof loginFailed;
 /**
  * Action creator to handle the login process of a user.
  *
@@ -60,18 +61,22 @@ export function register (credentials: RegisterCredentials): AppAction<REGISTER_
     };
 }
 
+export type RegisterRequest = typeof register;
+
 /**
  * Action creator. triggered once the user has been registered successfully.
  *
  * @param {UserState} credentials value to be dispatched.
  * @returns {AppAction<REGISTER_SUCCESS,UserState>} action.
  */
-export function registerSuccess (user: UserState): AppAction<REGISTER_SUCCESS, UserState> {
+export function registerSuccess (): AppAction<REGISTER_SUCCESS, undefined> {
     return {
         type: REGISTER_SUCCESS,
-        payload: user
+        payload: undefined
     };
 }
+
+export type RegisterSuccess = typeof registerSuccess;
 
 /**
  * Action creator. triggered when the user could not register.
@@ -85,6 +90,8 @@ export function registerFailed (error: Error): AppAction<REGISTER_FAILED, Error>
         payload: error
     };
 }
+
+export type RegisterFailed = typeof registerFailed;
 
 export type UserActions =
     | typeof registerFailed

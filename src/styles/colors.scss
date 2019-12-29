@@ -2,4 +2,6 @@ $background-color: #eee;
 $font-color: #666;
 $primary-color: teal;
 $dark-color: darken($primary-color, 0.4);
-$light-color: lighten($primary-color, 0.4);
+$light-color: lighten($primary-color, 10%);
+
+$white-color: #fff;
