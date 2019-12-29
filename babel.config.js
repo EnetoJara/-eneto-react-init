@@ -5,6 +5,17 @@ module.exports = api => {
     api.cache(()=>NODE_ENV);
     api.env();
 
+    if (NODE_ENV === "babel") {
+        return {
+            presets: [
+                "@babel/preset-typescript"
+            ],
+            plugins: [
+                ["@babel/plugin-syntax-dynamic-import"],
+            ]
+        }
+    }
+
     if (NODE_ENV === 'development') {
         return {
             presets: [
@@ -21,6 +32,7 @@ module.exports = api => {
                 "@babel/preset-typescript"
             ],
             plugins: [
+                ["@babel/plugin-syntax-dynamic-import"],
                 ["@babel/plugin-transform-runtime", {corejs: {version: 3, proposals: true}, useESModules: true}],
                 "react-hot-loader/babel"
             ]
@@ -47,6 +59,7 @@ module.exports = api => {
                 "@babel/preset-typescript"
             ],
             plugins: [
+                ["@babel/plugin-syntax-dynamic-import"],
                 ["@babel/plugin-transform-react-constant-elements"],
                 ["@babel/plugin-transform-react-inline-elements"],
                 "@babel/plugin-transform-runtime",

@@ -1,31 +1,28 @@
-import * as React from 'react';
-import { render } from 'react-dom';
+import * as React from "react";
+import { render } from "react-dom";
 import { AppContainer } from "react-hot-loader";
 import { App } from "./components/app";
-import './styles/index.scss';
+import "./styles/index.scss";
 import { unregister } from "./worker";
 
-
-
-function init(C: any) {
+function init (): void {
     if (process.env.NODE_ENV === "development") {
-        render(<AppContainer>
-            <C />
-        </AppContainer>
-            , document.getElementById("enetito"));
-    } else {
         render(
-            <C />
-
-            , document.getElementById("enetito"));
+            <AppContainer>
+                <App />
+            </AppContainer>,
+            document.getElementById("enetito")
+        );
+    } else {
+        render(<App />, document.getElementById("enetito"));
     }
 }
 
-init(App);
+init();
 
 if (process.env.NODE_ENV === "development" && module.hot) {
     module.hot.accept("./components/app", () => {
-        init(App);
+        init();
     });
 }
 

@@ -4,4 +4,4 @@ require("core-js/web/index");
 require("es6-promise/dist/es6-promise.auto");
 require("./main.tsx");
 
-console.log('process.env: ', process.env);
+console.log("process.env: ", process.env);

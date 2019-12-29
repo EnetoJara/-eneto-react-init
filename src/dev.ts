@@ -5,4 +5,4 @@ require("core-js");
 require("es6-promise/auto");
 require("./main.tsx");
 
-console.log('process.env: ', process.env);
+console.log("process.env: ", process.env);

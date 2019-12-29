@@ -19,9 +19,10 @@ process.env.NODE_PATH = (process.env.NODE_PATH || "")
     .join(path.delimiter);
 
 module.exports = function () {
-    const ROUTES = /^ENETO_/i;
+    const ENETO = /^ENETO_/i;
+    const ROUTE = /^ROUTE_/i;
     const raw = Object.keys(process.env)
-        .filter(key => ROUTES.test(key))
+        .filter(key => ENETO.test(key) || ROUTE.test(key))
         .reduce(
             (env, key) => {
                 env[key] = process.env[key];
