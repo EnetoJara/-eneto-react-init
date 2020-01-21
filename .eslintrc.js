@@ -1,10 +1,15 @@
 module.exports = {
+    root: true,
     "env": {
         "browser": true,
         "es6": true
     },
     "extends": [
+        'airbnb-typescript',
         "eslint:recommended",
+        "eslint-config-jsdoc",
+        "plugin:promise/recommended",
+        "plugin:import/recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
@@ -50,10 +55,12 @@ module.exports = {
     },
     "plugins": [
         "react",
+        "jsdoc",
+        "promise",
+        "import",
         "@typescript-eslint"
     ],
     "rules": {
-        "indent": 0,
         "linebreak-style": [
             "error",
             "unix"
@@ -71,13 +78,10 @@ module.exports = {
             "error",
             "always"
         ],
-        "@typescript-eslint/indent": 0,
         "@typescript-eslint/unbound-method": 0,
         "no-console": 0,
         "react/jsx-indent": ["error",4],
         "max-len": ["error", 120],
-        "@typescript-eslint/no-explicit-any": 0,
-        "@typescript-eslint/explicit-function-return-type": 0,
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
         "react/boolean-prop-naming": "error",

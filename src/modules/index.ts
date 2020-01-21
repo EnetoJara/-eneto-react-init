@@ -1,7 +1,7 @@
 import { all } from "redux-saga/effects";
 import { userActions, userApi, userReducer, userWatchers, userWorkers } from "./users";
 
-function* rootSagas () {
+function* rootSagas() {
     yield all([...userWatchers]);
 }
 

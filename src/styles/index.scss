@@ -1,7 +1,4 @@
-:root {
-    @import "normalize.scss/normalize.scss"
-}
-
+@import "~normalize.scss/normalize.scss";
 @import "./constants.scss";
 @import "./colors.scss";
 @import "./fonts.scss";
@@ -22,7 +19,9 @@ body {
     color: $font-color;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
     margin: $zero;
     padding: $zero;

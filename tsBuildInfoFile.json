@@ -198,12 +198,12 @@
         "signature": "bca166983a1b4bea5aff7ac14949ed25c065d0a006990136b75c3f4690c4e93c"
       },
       "./node_modules/@types/history/index.d.ts": {
-        "version": "577eb25bca27a3a4ddd46b57f28cd83211501bfbc4786bd65639b951f20cff82",
-        "signature": "577eb25bca27a3a4ddd46b57f28cd83211501bfbc4786bd65639b951f20cff82"
+        "version": "e056239c59d0bd24e2c8632a58fe3fb508921444f006378b2dc5ee140dc8c6a8",
+        "signature": "e056239c59d0bd24e2c8632a58fe3fb508921444f006378b2dc5ee140dc8c6a8"
       },
       "./node_modules/@types/react-router/index.d.ts": {
-        "version": "59c1bfe6d0f8f856fde9896b29f028508fabe9702218a9f96b1c5c271dcf7d5a",
-        "signature": "59c1bfe6d0f8f856fde9896b29f028508fabe9702218a9f96b1c5c271dcf7d5a"
+        "version": "9dc43e7de14463f159bc95d305c80d3c6d8cc1aeba1aff8bc9f9b076bd076e36",
+        "signature": "9dc43e7de14463f159bc95d305c80d3c6d8cc1aeba1aff8bc9f9b076bd076e36"
       },
       "./node_modules/@types/react-router-dom/index.d.ts": {
         "version": "16cfb661be918f74b772680e4f43ec3d6bad99e44a7d0c41ab117748580b35de",
@@ -246,11 +246,11 @@
         "signature": "548ee1d7a8b9c9b3d5c2961beda9d9f4b93650fdcf2846d15c16106beacd54e5"
       },
       "./src/modules/users/users-actions.ts": {
-        "version": "b1b9f2ac7f24ca8333efc339911025e17e948c429651a9e143333cf0bfb22229",
+        "version": "cd7b0d4bf222a79c0198e922f173fa3a932fe349174f61ba01fa15d5c4239d7e",
         "signature": "eac873d08ce3a0dc8536239487b651a15bb9d1155c5799a5b7441b29b567f6d3"
       },
       "./src/components/login/login-component.tsx": {
-        "version": "b97c0e00c6b798ffb794bfde3305ff4e616238a0f22e7f7891bbf2039af78f20",
+        "version": "d04723657dca1d29c044aeaf6605822adf6352b78e7b12e4c7e3720a075fd81d",
         "signature": "0ea397c3ab2f396615dcbb25cec80a32208596a2dfd4340bcc54f7bcfbad8765"
       },
       "./src/components/login/index.ts": {
@@ -294,23 +294,23 @@
         "signature": "d7584f06c8026bc776ac6ec204f7732a7ebc60a3538583132a428264d3743458"
       },
       "./src/utils/api.ts": {
-        "version": "af43514f22769e314d4feb3318ff96f2a8d0f7a6168823337b4e3be3308685e6",
+        "version": "460f37261213038e1d8bdd5646cfb1eae9a3be72fee62be8029de61ba0a659c6",
         "signature": "5f2ff699e4abe93d1bc04d27689badbf4ebbf9591fb7e09152d925223f8577eb"
       },
       "./src/modules/users/users-api.ts": {
-        "version": "c97ba517ff603c51e21dbc68e6e0726445bf5f2db128341dbd1857aa1e02bb9a",
+        "version": "84850acaf559dbd6de02466ab7131eb5ac6e79966ed1e276317f4e43c11132ac",
         "signature": "c700d2be00be42dd6cec9ca2724ab00bb8e08a5304963de3f99d3578f09ef014"
       },
       "./src/modules/users/users-reducer.ts": {
-        "version": "23172a9370595b8f07d1344de8f3d59c0bfd48430937e1a370fd0612c7e0864c",
+        "version": "47ddb274b2c26cc5c494932926c8b06781b93711b94f7b73b61e10c446a6ea13",
         "signature": "7cded11386ff2df5440c6c085578a955630587a593ed8912f63090f53be87985"
       },
       "./src/modules/users/users-workers.ts": {
-        "version": "d6dfecc9fd7e8847d2d858154959048bac072082df62cb8af4dc049390a88b36",
+        "version": "e568a357d2a46ae8512f56acc4c7f983cb5fa2da3ed2d5ab5ca793ca3df1e8cd",
         "signature": "714ab295313ef9631e8b3cce5189060b34c5b0497b7c6c230d636ac80b7ac4e7"
       },
       "./src/modules/users/users-watchers.ts": {
-        "version": "5b87e7dfebb18172fb4fd512b147397b0d331ee8bf08f78ec36b1a073f2be867",
+        "version": "4d03479a16fc358d8f119c5e144469c3192b0820dab81c9d397c1cc657147b94",
         "signature": "84cc83ceef46a687bc65da96de4c7526da7cf7d1bb1e5322b373201334cbf2cb"
       },
       "./src/modules/users/index.ts": {
@@ -318,7 +318,7 @@
         "signature": "019f97db26d1eb642e0fc83aa0bb597c49dddacd6481495754da8e5f843e9644"
       },
       "./src/modules/index.ts": {
-        "version": "439506483de29c26c718fb5313ab8ffc0ffa596e556b4b959a7040f61fefb170",
+        "version": "398975741a751033d0d2aa1c7e2c597b32c451f6bf40d05094990704d194fbf5",
         "signature": "04de18fd0522d2a6ac81e27dcdcf12e9a85e46dcc8e128e9b7de26a776b11392"
       },
       "./src/containers/login-container.ts": {
@@ -330,27 +330,35 @@
         "signature": "c9895de2ccfbcee22d232366337ee472a052e706d86ae239421a7723119d6718"
       },
       "./src/hoc/header/header-hoc.tsx": {
-        "version": "3c12064da2f15f808cbe448fa1a5cf13f641572025786512281013ed05d08874",
+        "version": "b8f28106301592276db3084594cba14b73367917c62b6be795aebc03fda8f98f",
         "signature": "fb2f2a1a80228e0b1dec5bfceb49aac12de6d81e56e4790a27708c62c61381cf"
       },
       "./src/hoc/layout/layout-hoc.tsx": {
-        "version": "22e5ac5bc99bada9582e25471ea2f8472262ace03d43729fe418ff972600d672",
+        "version": "de2a4fb7bbb72b179cdd2f9a62cca3151f5b30e7e4a2bae5cec7eb471b5c2345",
         "signature": "2a995c7c014e881666fc58266ee24dff00e9351b081e8bd01c4ad53af7772c80"
       },
       "./src/hoc/main/main-hoc.tsx": {
-        "version": "63068fbee6ebe41dca3581a8278859fd61dff9e84f4047ee15ffd52f18173334",
+        "version": "0628be9d7cdfa306a9b54d4c17de3b53dabecaf6cdc9737243757ec1bd3c9e48",
         "signature": "20d8fb89f409975b2668daf3a48dcbb6a4517b4d56ae4a08e9992da0ef347cb7"
       },
       "./src/hoc/side-nav/side-nav-hoc.tsx": {
-        "version": "2f6966caa2550b3522aaca43ff33f6065b5438451118e8372324463595dbf983",
+        "version": "44826d4ec830c6c2275058a6f92d7ba19bda8ff4e4b5b3b30896617d8eee2cb7",
         "signature": "a44a4fd0aad2cb8ea8ff36a519d6d589f0a3ded84d839927fcb5458c5baf5855"
       },
       "./src/hoc/index.ts": {
         "version": "34081c5f67c490c5e098868f33491333f07cf81bb827b15036f88f4fcd74e493",
         "signature": "a95482bf5c2cc818f972e6236a087931198edd41109d0a20bf5c4ed78252d269"
       },
+      "./src/components/theme/buttons/button-component.tsx": {
+        "version": "9e4cf63d435a3ee15e287fca81231b99edc721c838bfe131afbd641de72df141",
+        "signature": "44c9202cfe0a9690c5806beec5ff12cfaa9fd1015ee1218d6bf7bc171816a754"
+      },
+      "./src/components/theme/buttons/index.ts": {
+        "version": "69d47ac3f968869bca63d3365cc3341340beda700a7679413736aaab6a5bbeea",
+        "signature": "f41e2b0056919e5fbce5ed083af8dbda03a0b7a90cf13a3e84cd1eaed8ef2196"
+      },
       "./src/components/app/app-component.tsx": {
-        "version": "1e9d46ede63ac6bd9d251dc2296be0b28a88e9464c6dfe45c869bb72cf61b7a5",
+        "version": "fa684dc92a20f1ae5dc02624d87cf242edd2485a33a544e755c80b6e2064c747",
         "signature": "915df05b89c26bfd7a4e5db4100b7fa0545b8617b7cc3887a04a6d26c29a55d9"
       },
       "./src/components/app/index.ts": {
@@ -386,15 +394,15 @@
         "signature": "7b6e484e6b248b0b2c9393549bae07b882bb50e997f1da5eb2405c33a1fd8c1e"
       },
       "./src/redux/store/dev.ts": {
-        "version": "118d224649cff7f81521faaa5fce217016ee1b4b1d8ce257319131c9355ab088",
+        "version": "e3ef7c96b9ae9811e4283f918c4b5ec59a86397c38a89ffd8fa4b687ba00f1b2",
         "signature": "6cc9118f723daa103d5a03c93b9e16b8334ddf5979f27b896cc5a138921edf36"
       },
       "./src/redux/store/prod.ts": {
-        "version": "bf913dcae8b5fc416ac80997fb864a3acf524dd2fdf499766140e545bb8f1175",
-        "signature": "87347c1657657c0d6591fc99ad9ef3fc92d25f68b37ccbacab6627cc88e02a54"
+        "version": "efdc5527e350dcd9146a1bccef38ac6373b0ecd65d6c2f6996f62c11371aecab",
+        "signature": "ae6a9b081eb9fae429bdd4645c2400ce6d1d808491bdbec6392993f4731500d6"
       },
       "./src/redux/store/index.ts": {
-        "version": "c587f2590e43ad7246ccd4a34a52016ca34e14e11da527d7d60c8922e7b44048",
+        "version": "461aa21dee103899bcb3a243887c000fcd4aef8841995559e44623a47742bb0b",
         "signature": "91bd68c7897b18c05ff59c97d790fe7d8cb936c872938d5cecaecffd35ee313a"
       },
       "./src/types/lib.d.ts": {
@@ -406,7 +414,7 @@
         "signature": "1923cbe22fe3f5005de4192f014b558a88e0fdec16726bb4f94ac76dd1a82c92"
       },
       "./src/start/dev.tsx": {
-        "version": "2dd21861421aa0c993ee7a1297eb2dbb357abc8cd5eddb92599b277dce04cacb",
+        "version": "f42a696dd89e6da9f3a4f19abcb234f342f9a85d61a29edfb98ab149deb40b51",
         "signature": "915d4021ab32686852fda4fe863033482277c485ab9e6e5f6611d6f29d598fcd"
       },
       "./src/start/prod.tsx": {
@@ -1277,6 +1285,20 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/components/theme/buttons/button-component.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/components/theme/buttons/index.ts": [
+        "./src/components/theme/buttons/button-component.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/components/app/app-component.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/react-hot-loader/index.d.ts",
@@ -1284,6 +1306,7 @@
         "./src/containers/index.tsx",
         "./src/hoc/index.ts",
         "./src/utils/constants.ts",
+        "./src/components/theme/buttons/index.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2735,6 +2758,12 @@
         "./node_modules/@types/node/ts3.2/globals.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/components/theme/buttons/button-component.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/theme/buttons/index.ts": [
+        "./src/components/theme/buttons/button-component.tsx"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2799,8 +2828,6 @@
       "./node_modules/axios/index.d.ts",
       "./node_modules/@types/qs/index.d.ts",
       "./src/utils/constants.ts",
-      "./src/modules/users/users-actions.ts",
-      "./src/components/login/login-component.tsx",
       "./src/components/login/index.ts",
       "./node_modules/typescript-logic/index.d.ts",
       "./node_modules/typescript-compare/index.d.ts",
@@ -2811,19 +2838,9 @@
       "./node_modules/@redux-saga/core/types/ts3.6/index.d.ts",
       "./node_modules/@redux-saga/core/types/ts3.6/effects.d.ts",
       "./node_modules/redux-saga/effects.d.ts",
-      "./src/utils/api.ts",
-      "./src/modules/users/users-api.ts",
-      "./src/modules/users/users-reducer.ts",
-      "./src/modules/users/users-workers.ts",
-      "./src/modules/users/users-watchers.ts",
       "./src/modules/users/index.ts",
-      "./src/modules/index.ts",
       "./src/containers/login-container.ts",
       "./src/containers/index.tsx",
-      "./src/hoc/header/header-hoc.tsx",
-      "./src/hoc/layout/layout-hoc.tsx",
-      "./src/hoc/main/main-hoc.tsx",
-      "./src/hoc/side-nav/side-nav-hoc.tsx",
       "./src/hoc/index.ts",
       "./src/components/app/index.ts",
       "./src/hoc/header/index.ts",
@@ -2833,13 +2850,8 @@
       "./src/redux/reducers/index.ts",
       "./node_modules/redux-devtools-extension/index.d.ts",
       "./node_modules/redux-saga/index.d.ts",
-      "./src/redux/store/dev.ts",
-      "./src/redux/store/prod.ts",
-      "./src/redux/store/index.ts",
       "./src/types/lib.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
-      "./src/start/dev.tsx",
-      "./src/start/prod.tsx",
       "./node_modules/@types/node/globals.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
@@ -2886,7 +2898,49 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./src/components/app/app-component.tsx"
+      "./src/modules/users/users-actions.ts",
+      "./src/components/login/login-component.tsx",
+      "./src/utils/api.ts",
+      "./src/modules/users/users-api.ts",
+      "./src/modules/users/users-reducer.ts",
+      "./src/modules/users/users-workers.ts",
+      "./src/modules/users/users-watchers.ts",
+      "./src/modules/index.ts",
+      "./src/hoc/header/header-hoc.tsx",
+      "./src/hoc/layout/layout-hoc.tsx",
+      "./src/hoc/main/main-hoc.tsx",
+      "./src/hoc/side-nav/side-nav-hoc.tsx",
+      "./src/components/theme/buttons/button-component.tsx",
+      "./src/components/theme/buttons/index.ts",
+      [
+        "./src/components/app/app-component.tsx",
+        [
+          {
+            "file": "./src/components/app/app-component.tsx",
+            "start": 750,
+            "length": 6,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ children: string; type: string; }' is not assignable to type 'IntrinsicAttributes'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Property 'children' does not exist on type 'IntrinsicAttributes'.",
+                  "category": 1,
+                  "code": 2339
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "./src/redux/store/dev.ts",
+      "./src/redux/store/prod.ts",
+      "./src/redux/store/index.ts",
+      "./src/start/dev.tsx",
+      "./src/start/prod.tsx"
     ]
   },
   "version": "3.7.4"

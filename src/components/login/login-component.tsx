@@ -14,7 +14,7 @@ export interface LoginState {
 export class Login extends React.Component<LoginProps, LoginState> {
     public state: LoginState;
 
-    public constructor (props: LoginProps) {
+    public constructor(props: LoginProps) {
         super(props);
 
         this.state = {
@@ -23,7 +23,7 @@ export class Login extends React.Component<LoginProps, LoginState> {
         };
     }
 
-    public componentDidMount (): void {
+    public componentDidMount(): void {
         const { loginSuccess } = this.props;
 
         loginSuccess({
@@ -37,7 +37,7 @@ export class Login extends React.Component<LoginProps, LoginState> {
         });
     }
 
-    public render (): React.ReactElement<LoginProps> {
+    public render(): React.ReactElement<LoginProps> {
         const { email, password } = this.state;
         return (
             <div>

@@ -10,7 +10,7 @@ import { unregister } from "../worker";
 
 store.runSaga(rootSagas);
 store.subscribe(() => localStorage.setItem("initApp", JSON.stringify(store.getState())));
-function init (): void {
+function init(): void {
     render(
         <AppContainer>
             <Provider store={store}>

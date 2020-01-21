@@ -19,7 +19,7 @@ import { apiConfig, API_LOGIN, API_REGISTER } from "../../utils/constants";
  * @author Ernesto Jara Olveda
  */
 class UserApi extends Api {
-    public constructor () {
+    public constructor() {
         super(apiConfig);
 
         this.loginUser = this.loginUser.bind(this);
@@ -32,7 +32,7 @@ class UserApi extends Api {
      * @param {string} credentials.password - user's password.
      * @returns {Promise<UserState>} userState - user information,
      */
-    public loginUser (credentials: LoginCredentials): Promise<UserState> {
+    public loginUser(credentials: LoginCredentials): Promise<UserState> {
         return this.post<UserState>(API_LOGIN, JSON.stringify(credentials))
             .then((response: AxiosResponse<UserState>) => {
                 const { data } = response;
@@ -67,7 +67,7 @@ class UserApi extends Api {
      * @param {string} RegisterCredentials.password2.
      * @returns {Promise<number>} status code of `CREATED`.
      */
-    public registerUser (credrentials: RegisterCredentials): Promise<number> {
+    public registerUser(credrentials: RegisterCredentials): Promise<number> {
         return this.post<number>(API_REGISTER, JSON.stringify(credrentials))
             .then((registered: AxiosResponse<number>) => {
                 const { status } = registered;

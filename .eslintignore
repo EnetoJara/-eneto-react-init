@@ -1,1 +1,9 @@
 /src/*.ts
+.gitignore
+.npmrc
+.prettierrc
+.stylelintrc.js
+babel.config.js
+index.js
+jest.config.js
+.stylelintrc.js

@@ -11,14 +11,14 @@ export const initUserState: UserState = Object.freeze<UserState>({
     token: ""
 });
 
-function clean (state: UserState): UserState {
+function clean(state: UserState): UserState {
     return {
         ...state,
         ...initUserState
     };
 }
 
-export function userReducer (state: UserState = initUserState, action: AppAction): UserState {
+export function userReducer(state: UserState = initUserState, action: AppAction): UserState {
     switch (action.type) {
         case LOGIN_SUCCESS:
             return {

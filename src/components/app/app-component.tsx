@@ -4,8 +4,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Login } from "../../containers";
 import { Header, Layout, Main, SideNav } from "../../hoc";
 import { ROUTE_LOGIN } from "../../utils/constants";
+import { Button } from "../theme/buttons/";
 
-function MainComponent (): React.ReactElement {
+function MainComponent(): React.ReactElement {
     return (
         <Layout>
             <BrowserRouter>
@@ -18,6 +19,7 @@ function MainComponent (): React.ReactElement {
                         <div>son 2</div>
                     </Header>
                     <main>
+                        <Button />
                         <Switch>
                             <Route exact path={ROUTE_LOGIN} component={Login} />
                         </Switch>

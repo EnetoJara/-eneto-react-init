@@ -9,7 +9,7 @@ const state: AppState = {
     user: initUserState
 };
 
-function configureStore (initialState: AppState) {
+function configureStore(initialState: AppState) {
     const sagaMiddleware = createSagaMiddleware();
     const middleware = [sagaMiddleware];
 

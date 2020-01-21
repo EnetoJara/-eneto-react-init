@@ -14,7 +14,7 @@ import {
  * @param {LoginCredentials} credentials value to be dispatched
  * @returns {AppAction<LOGIN_REQUEST,LoginCredentials>} action
  */
-export function login (credentials: LoginCredentials): AppAction<LOGIN_REQUEST, LoginCredentials> {
+export function login(credentials: LoginCredentials): AppAction<LOGIN_REQUEST, LoginCredentials> {
     return {
         type: LOGIN_REQUEST,
         payload: credentials
@@ -28,7 +28,7 @@ export type LoginRequest = typeof login;
  * @param {UserState} user value to be dispatched
  * @returns {AppAction<LOGIN_SUCCESS,UserState>} action
  */
-export function loginSuccess (user: UserState): AppAction<LOGIN_SUCCESS, UserState> {
+export function loginSuccess(user: UserState): AppAction<LOGIN_SUCCESS, UserState> {
     return {
         type: LOGIN_SUCCESS,
         payload: user
@@ -41,7 +41,7 @@ export type LoginSuccess = typeof loginSuccess;
  * @param {Error} error value to be dispatched
  * @returns {AppAction<LOGIN_FAILED,Error>} action
  */
-export function loginFailed (error: Error): AppAction<LOGIN_FAILED, Error> {
+export function loginFailed(error: Error): AppAction<LOGIN_FAILED, Error> {
     return {
         type: LOGIN_FAILED,
         payload: error
@@ -54,7 +54,7 @@ export type LoginFailed = typeof loginFailed;
  * @param {RegisterCredentials} credentials value to be dispatched
  * @returns {AppAction<REGISTER_REQUEST,RegisterCredentials>} action
  */
-export function register (credentials: RegisterCredentials): AppAction<REGISTER_REQUEST, RegisterCredentials> {
+export function register(credentials: RegisterCredentials): AppAction<REGISTER_REQUEST, RegisterCredentials> {
     return {
         type: REGISTER_REQUEST,
         payload: credentials
@@ -69,7 +69,7 @@ export type RegisterRequest = typeof register;
  * @param {UserState} credentials value to be dispatched.
  * @returns {AppAction<REGISTER_SUCCESS,UserState>} action.
  */
-export function registerSuccess (): AppAction<REGISTER_SUCCESS, undefined> {
+export function registerSuccess(): AppAction<REGISTER_SUCCESS, undefined> {
     return {
         type: REGISTER_SUCCESS,
         payload: undefined
@@ -84,7 +84,7 @@ export type RegisterSuccess = typeof registerSuccess;
  * @param {Error} error value to be dispatched
  * @returns {AppAction<REGISTER_FAILED,Error>} action
  */
-export function registerFailed (error: Error): AppAction<REGISTER_FAILED, Error> {
+export function registerFailed(error: Error): AppAction<REGISTER_FAILED, Error> {
     return {
         type: REGISTER_FAILED,
         payload: error
