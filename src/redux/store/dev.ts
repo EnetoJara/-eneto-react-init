@@ -2,11 +2,13 @@ import { applyMiddleware, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import createSagaMiddleware from "redux-saga";
 import { AppState } from "resume-app";
+import { initPageState } from '../../modules/app/app-reducer';
 import { initUserState } from "../../modules/users/users-reducer";
 import { rootReducer } from "../reducers";
 
 const state: AppState = {
-    user: initUserState
+    user: initUserState,
+    app: initPageState
 };
 
 function configureStore(initialState: AppState) {

@@ -1,7 +1,22 @@
 .app-layout {
     box-sizing: $b-box;
+    width: $max-width;
+    height: $max-height;
     margin: $zero;
     padding: $zero;
     display: flex;
-    flex-flow: colum wrap;
+
+    &-side-nav {
+        width: 25rem;
+        background-color: $primary-color-light;
+    }
+
+    &-main {
+        flex: 1;
+    }
+
+
+    &-header {
+        background-color: $primary-color;
+    }
 }

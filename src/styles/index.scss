@@ -1,7 +1,11 @@
 @import "~normalize.scss/normalize.scss";
 @import "./constants.scss";
 @import "./colors.scss";
+@import "./mixins.scss";
+@import "./letters.scss";
 @import "./fonts.scss";
+@import "./layout.scss";
+@import "./components/buttons.scss";
 
 html {
     font-size: $font-size;
@@ -12,7 +16,7 @@ html {
 body {
     box-sizing: $b-box;
     width: $max-width;
-    height: $max-heigth;
+    height: $max-height;
     background-color: $background-color;
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;

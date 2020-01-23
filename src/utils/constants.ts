@@ -5,6 +5,10 @@ export const { ROUTE_HOME } = process.env;
 export const { ROUTE_LOGIN } = process.env;
 export const { ROUTE_REGISTER } = process.env;
 
+export const TOGGLE_SIDE_NAV = "app/toggle-side-nav";
+export type TOGGLE_SIDE_NAV = typeof TOGGLE_SIDE_NAV;
+export const APP_LOADING = "app/loading";
+export type APP_LOADING = typeof APP_LOADING;
 export const LOGIN_REQUEST = "users/login-request";
 export type LOGIN_REQUEST = typeof LOGIN_REQUEST;
 export const LOGIN_SUCCESS = "users/login-success";

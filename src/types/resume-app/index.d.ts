@@ -1,6 +1,11 @@
 import { Action } from "redux";
 
 declare module "resume-app" {
+    interface PageState {
+        loading: boolean;
+        showSideNav: boolean;
+    }
+
     interface UserState {
         token: string;
         id: number;
@@ -18,6 +23,7 @@ declare module "resume-app" {
 
     interface AppState {
         user: UserState;
+        app: PageState;
     }
 
     interface LoginCredentials {

@@ -229,9 +229,21 @@
         "version": "de25c073e95a4ba8b4556147c8cef60fa0a7aba72d424dd53d898ec071949a90",
         "signature": "de25c073e95a4ba8b4556147c8cef60fa0a7aba72d424dd53d898ec071949a90"
       },
+      "./src/hoc/page/page-hoc.tsx": {
+        "version": "9ad176f5e8bd0d2b37c2a5d731c18d66728d69c7e0844977d7269a02db6ab866",
+        "signature": "3846827b99bde45ed4145c16e2f35fe4f966e7998c1ac1977797da413f9fb9f3"
+      },
+      "./src/hoc/page/index.ts": {
+        "version": "56e1c957b6b81b5ddd67e82db70560347a4792cf9b3b784e329b5117dd313fdb",
+        "signature": "2ee78570b705725a35491b4bee62444fe0619ab85707614708c2095fb6233e2c"
+      },
+      "./src/containers/page-container.ts": {
+        "version": "cfa8e04c8b0dafb0f59826ae63ddca5736beda992ee12d79b19ae4ccd2444ed5",
+        "signature": "faa78d664389846197d0023166c94ff019e16051c8401974ff6d22e29cb4e563"
+      },
       "./src/types/resume-app/index.d.ts": {
-        "version": "f6e0891cba8603e1817fe79eda459d1cd8a5155565fa38b436aff35c7fe82b82",
-        "signature": "f6e0891cba8603e1817fe79eda459d1cd8a5155565fa38b436aff35c7fe82b82"
+        "version": "19d740723adcbcb903b441d02e66796ec24da6ba850fc1c27b87f4d598245d8b",
+        "signature": "19d740723adcbcb903b441d02e66796ec24da6ba850fc1c27b87f4d598245d8b"
       },
       "./node_modules/axios/index.d.ts": {
         "version": "9b3812f5ae5c9c8c9daf7107e1041f4ad9d19aebd12b738a81f22a1ac1f5e371",
@@ -242,8 +254,8 @@
         "signature": "c048b9659fff2e130bd6408317fa8cc833e50a1e8b8bdbf81544848b2c278c59"
       },
       "./src/utils/constants.ts": {
-        "version": "5af0f1127fe2a9a4f0a8913cd0c3e1f2f72b11e45aecf8f97ca79a1a72c7b2e0",
-        "signature": "548ee1d7a8b9c9b3d5c2961beda9d9f4b93650fdcf2846d15c16106beacd54e5"
+        "version": "20ee7941336a65f990a9d6a42a527381a41f91303e54792f3056ba6b6b0ecb8a",
+        "signature": "d2531c521ccde12a75eb4ff792eeb27e09aee2ca21704728bd0fe328a6bacaf8"
       },
       "./src/modules/users/users-actions.ts": {
         "version": "cd7b0d4bf222a79c0198e922f173fa3a932fe349174f61ba01fa15d5c4239d7e",
@@ -317,17 +329,25 @@
         "version": "c35c7fbe4f1777f36e22d45eacecc9082bce6c57711f80e658adbe44d8420c83",
         "signature": "019f97db26d1eb642e0fc83aa0bb597c49dddacd6481495754da8e5f843e9644"
       },
+      "./src/modules/app/app-reducer.ts": {
+        "version": "9ca94a04d5894ea329de606916c173c07cbe21a2565df6ad5493d2620d7cda1c",
+        "signature": "1477d056369a2680a0e7690ecb758ecf7f54f26162d002e6791ec1805657c82f"
+      },
+      "./src/modules/app/index.ts": {
+        "version": "b8da3a88651b2d8d50e307a716e9f8c0447f17d118b84b0e06a6a025a42c6348",
+        "signature": "00c58b276e97064e3d8a75c27261b60a58406840963fb71fe74f1c9777fca5f2"
+      },
       "./src/modules/index.ts": {
-        "version": "398975741a751033d0d2aa1c7e2c597b32c451f6bf40d05094990704d194fbf5",
-        "signature": "04de18fd0522d2a6ac81e27dcdcf12e9a85e46dcc8e128e9b7de26a776b11392"
+        "version": "b20cfe11a9942af9d8b94374061dc0aa8178070c0dc6f99812b2c4341a825df1",
+        "signature": "08f43162bafe36f42c9d27bfcd70b21ecef649aa06b62a80f84288806f11662a"
       },
       "./src/containers/login-container.ts": {
         "version": "ec115f74b6fd827ec201fb70d7318f6a135d8f0b5943422bd7312d65fb0d77a1",
         "signature": "f7ebd19724156b631a9864a66a06e5a699742697810181924be0c7b713d1d52b"
       },
       "./src/containers/index.tsx": {
-        "version": "a7b7c0acbf7e5e6b16ca8f72bb94a66d5d9d34287fce8bc4d1de23110e0174ef",
-        "signature": "c9895de2ccfbcee22d232366337ee472a052e706d86ae239421a7723119d6718"
+        "version": "fb3dd4ae9eff4b5a9e9823657916b0c8726df630588fd7ba56c3619f5477aa68",
+        "signature": "02c265e43b0d3f0780b013f9d7e1c2653bedd845cb69e173250941c0c5239140"
       },
       "./src/hoc/header/header-hoc.tsx": {
         "version": "b8f28106301592276db3084594cba14b73367917c62b6be795aebc03fda8f98f",
@@ -349,21 +369,33 @@
         "version": "34081c5f67c490c5e098868f33491333f07cf81bb827b15036f88f4fcd74e493",
         "signature": "a95482bf5c2cc818f972e6236a087931198edd41109d0a20bf5c4ed78252d269"
       },
-      "./src/components/theme/buttons/button-component.tsx": {
-        "version": "9e4cf63d435a3ee15e287fca81231b99edc721c838bfe131afbd641de72df141",
-        "signature": "44c9202cfe0a9690c5806beec5ff12cfaa9fd1015ee1218d6bf7bc171816a754"
-      },
-      "./src/components/theme/buttons/index.ts": {
-        "version": "69d47ac3f968869bca63d3365cc3341340beda700a7679413736aaab6a5bbeea",
-        "signature": "f41e2b0056919e5fbce5ed083af8dbda03a0b7a90cf13a3e84cd1eaed8ef2196"
-      },
       "./src/components/app/app-component.tsx": {
-        "version": "fa684dc92a20f1ae5dc02624d87cf242edd2485a33a544e755c80b6e2064c747",
+        "version": "aaccfc75b5867761142f59b5f510d657e4c5b21611889995dcd89d97a3b67835",
         "signature": "915df05b89c26bfd7a4e5db4100b7fa0545b8617b7cc3887a04a6d26c29a55d9"
       },
       "./src/components/app/index.ts": {
         "version": "12c8f7dbf0d589a2a4b8ed545d74c585dbf6b45e0e627f79d61ac0e967d9edb2",
         "signature": "76fa72901ae605e6dfcceca20280659f53d1000b6be4453c0c689a508118e1ff"
+      },
+      "./node_modules/@types/classnames/types.d.ts": {
+        "version": "dc688638e386342faae164e68ac0205274b6731e70ac1a45921f3ce3aa083795",
+        "signature": "dc688638e386342faae164e68ac0205274b6731e70ac1a45921f3ce3aa083795"
+      },
+      "./node_modules/@types/classnames/index.d.ts": {
+        "version": "b16c6ab962274dc23b0c57aba4425c3265cc05ad84782b8db5a344df6ad0f8f1",
+        "signature": "b16c6ab962274dc23b0c57aba4425c3265cc05ad84782b8db5a344df6ad0f8f1"
+      },
+      "./src/types/theme/index.d.ts": {
+        "version": "44687a9f0d3f73b8ef8908c9558b43a2bfdcd50420f708bbcdfe0c4966279c49",
+        "signature": "44687a9f0d3f73b8ef8908c9558b43a2bfdcd50420f708bbcdfe0c4966279c49"
+      },
+      "./src/components/theme/buttons/button-component.tsx": {
+        "version": "75696dade3f1e55a472078a018bb5d3dc3a565507f21d2f8fd016332957e992a",
+        "signature": "2f936d02444083bcb3274a4c9316f03fcd0a77777319cb40b32c85107743c868"
+      },
+      "./src/components/theme/buttons/index.ts": {
+        "version": "b8754c344425ee9945af4aab53434b89547d25368d0019777166d7141fb71bea",
+        "signature": "32b5af0141c5a9fc2613adac171acb49ebd1d79837828c96b2ee15260526c3f9"
       },
       "./src/hoc/header/index.ts": {
         "version": "c46e50383a2ca559ec845eb03b2ef722bfd3de5898df3933afb0d8e114e837d7",
@@ -381,9 +413,13 @@
         "version": "6546fbb46d6beed80af26b909b23a2d69988b6d32ba70c9db54b50947b6b9c6a",
         "signature": "fe9e59c9a2b2802bcbecfcc59b9ac6a6dc898f0c29d986802c609710debc1efa"
       },
+      "./src/modules/app/app-actions.ts": {
+        "version": "b3274f3923f5ea21a235be6efa98aca3171ddb12befe70b703d7f36ae7833596",
+        "signature": "fc555889022e3bf456f1aba15b2999252e680c2f34d2ccf08caae9a9d62dc6a5"
+      },
       "./src/redux/reducers/index.ts": {
-        "version": "2312c396186e06893a5956269682bd630391a4d107fa6e310a72b049709db7ac",
-        "signature": "86554d3256dbf1870e9cb308274474e80a06ba576581401f994389fd0352c62b"
+        "version": "39b7f2034685eab4c9663976188ba1e4585717f8c0f6c2dc9f8dc6e260e09aa8",
+        "signature": "62763e19a9b3ca165a03256d0f57970f5eecf835b88a7a7d09e7ca7a8c06e760"
       },
       "./node_modules/redux-devtools-extension/index.d.ts": {
         "version": "cc2dfe25b8097d41159130b416b1ee6f2a311eeed12ec1544cac9894a2d1b777",
@@ -394,12 +430,12 @@
         "signature": "7b6e484e6b248b0b2c9393549bae07b882bb50e997f1da5eb2405c33a1fd8c1e"
       },
       "./src/redux/store/dev.ts": {
-        "version": "e3ef7c96b9ae9811e4283f918c4b5ec59a86397c38a89ffd8fa4b687ba00f1b2",
-        "signature": "6cc9118f723daa103d5a03c93b9e16b8334ddf5979f27b896cc5a138921edf36"
+        "version": "ef954d44223b2d944c88cff23e19987cefc0014b7868fbfaf5332ea646087e83",
+        "signature": "0e1d640e2ed431b5ef652b0d742f2571ea18ccc9c33cc7eaee6747e044daf9e6"
       },
       "./src/redux/store/prod.ts": {
         "version": "efdc5527e350dcd9146a1bccef38ac6373b0ecd65d6c2f6996f62c11371aecab",
-        "signature": "ae6a9b081eb9fae429bdd4645c2400ce6d1d808491bdbec6392993f4731500d6"
+        "signature": "f8f399432ccac0d0fb6cdbc31f6eaada40cef665a4491bc4a6d719bd026ee567"
       },
       "./src/redux/store/index.ts": {
         "version": "461aa21dee103899bcb3a243887c000fcd4aef8841995559e44623a47742bb0b",
@@ -418,7 +454,7 @@
         "signature": "915d4021ab32686852fda4fe863033482277c485ab9e6e5f6611d6f29d598fcd"
       },
       "./src/start/prod.tsx": {
-        "version": "476ec3ccb1af4d2dfb933ba30d15a1109fea84686e6fc5fefef7e5e6e282060b",
+        "version": "45608ab65304399f92db1c88b6c8de227049594f78d57e0dbdf69ffad0adc42d",
         "signature": "f4001287c6e14d11070b13e85a7b0ba8c45dd5751ad5a54279d31dac4feeb32d"
       },
       "./node_modules/@types/node/globals.d.ts": {
@@ -1047,6 +1083,28 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/hoc/page/page-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/page/index.ts": [
+        "./src/hoc/page/page-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/containers/page-container.ts": [
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./src/hoc/page/index.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/types/resume-app/index.d.ts": [
         "./node_modules/redux/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1221,9 +1279,25 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/modules/app/app-reducer.ts": [
+        "./src/types/resume-app/index.d.ts",
+        "./src/utils/constants.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/modules/app/index.ts": [
+        "./src/modules/app/app-reducer.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/modules/index.ts": [
         "./node_modules/redux-saga/effects.d.ts",
         "./src/modules/users/index.ts",
+        "./src/modules/app/index.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1241,6 +1315,7 @@
       "./src/containers/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react-loadable/index.d.ts",
+        "./src/containers/page-container.ts",
         "./src/containers/login-container.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1285,20 +1360,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/components/theme/buttons/button-component.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/components/theme/buttons/index.ts": [
-        "./src/components/theme/buttons/button-component.tsx",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./src/components/app/app-component.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/react-hot-loader/index.d.ts",
@@ -1306,7 +1367,6 @@
         "./src/containers/index.tsx",
         "./src/hoc/index.ts",
         "./src/utils/constants.ts",
-        "./src/components/theme/buttons/index.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1314,6 +1374,41 @@
       ],
       "./src/components/app/index.ts": [
         "./src/components/app/app-component.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/classnames/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/classnames/index.d.ts": [
+        "./node_modules/@types/classnames/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/theme/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/components/theme/buttons/button-component.tsx": [
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/theme/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/components/theme/buttons/index.ts": [
+        "./src/components/theme/buttons/button-component.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1347,6 +1442,14 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/modules/app/app-actions.ts": [
+        "./src/types/resume-app/index.d.ts",
+        "./src/utils/constants.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/redux/reducers/index.ts": [
         "./node_modules/redux/index.d.ts",
         "./src/modules/index.ts",
@@ -1374,6 +1477,7 @@
         "./node_modules/redux-devtools-extension/index.d.ts",
         "./node_modules/redux-saga/index.d.ts",
         "./src/types/resume-app/index.d.ts",
+        "./src/modules/app/app-reducer.ts",
         "./src/modules/users/users-reducer.ts",
         "./src/redux/reducers/index.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1432,6 +1536,7 @@
         "./src/types/resume-app/index.d.ts",
         "./src/components/app/index.ts",
         "./src/modules/index.ts",
+        "./src/modules/app/app-reducer.ts",
         "./src/modules/users/users-reducer.ts",
         "./src/redux/store/prod.ts",
         "./src/worker.ts",
@@ -2172,6 +2277,17 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/hoc/page/page-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/hoc/page/index.ts": [
+        "./src/hoc/page/page-hoc.tsx"
+      ],
+      "./src/containers/page-container.ts": [
+        "./src/hoc/page/page-hoc.tsx",
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./src/hoc/page/index.ts"
+      ],
       "./src/types/resume-app/index.d.ts": [
         "./node_modules/redux/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -2298,8 +2414,12 @@
         "./src/modules/users/users-watchers.ts",
         "./src/modules/users/users-workers.ts"
       ],
+      "./src/modules/app/app-reducer.ts": [
+        "./src/types/resume-app/index.d.ts"
+      ],
       "./src/modules/index.ts": [
         "./src/modules/users/index.ts",
+        "./src/modules/app/index.ts",
         "./node_modules/redux-saga/effects.d.ts"
       ],
       "./src/containers/login-container.ts": [
@@ -2308,6 +2428,7 @@
         "./src/components/login/index.ts"
       ],
       "./src/containers/index.tsx": [
+        "./src/containers/page-container.ts",
         "./src/components/login/login-component.tsx",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react-loadable/index.d.ts"
@@ -2336,6 +2457,32 @@
       "./src/components/app/index.ts": [
         "./src/components/app/app-component.tsx"
       ],
+      "./node_modules/@types/classnames/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/classnames/index.d.ts": [
+        "./node_modules/@types/classnames/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/theme/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/components/theme/buttons/button-component.tsx": [
+        "./src/types/theme/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/theme/buttons/index.ts": [
+        "./src/components/theme/buttons/button-component.tsx"
+      ],
       "./src/hoc/header/index.ts": [
         "./src/hoc/header/header-hoc.tsx"
       ],
@@ -2347,6 +2494,10 @@
       ],
       "./src/hoc/side-nav/index.ts": [
         "./src/hoc/side-nav/side-nav-hoc.tsx"
+      ],
+      "./src/modules/app/app-actions.ts": [
+        "./src/types/resume-app/index.d.ts",
+        "./src/utils/constants.ts"
       ],
       "./src/redux/reducers/index.ts": [
         "./src/types/resume-app/index.d.ts",
@@ -2759,11 +2910,8 @@
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./src/components/theme/buttons/button-component.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/theme/buttons/index.ts": [
-        "./src/components/theme/buttons/button-component.tsx"
+      "./src/modules/app/index.ts": [
+        "./src/modules/app/app-reducer.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2824,10 +2972,15 @@
       "./node_modules/redux/index.d.ts",
       "./node_modules/@types/hoist-non-react-statics/index.d.ts",
       "./node_modules/@types/react-redux/index.d.ts",
+      "./src/hoc/page/page-hoc.tsx",
+      "./src/hoc/page/index.ts",
+      "./src/containers/page-container.ts",
       "./src/types/resume-app/index.d.ts",
       "./node_modules/axios/index.d.ts",
       "./node_modules/@types/qs/index.d.ts",
       "./src/utils/constants.ts",
+      "./src/modules/users/users-actions.ts",
+      "./src/components/login/login-component.tsx",
       "./src/components/login/index.ts",
       "./node_modules/typescript-logic/index.d.ts",
       "./node_modules/typescript-compare/index.d.ts",
@@ -2838,16 +2991,52 @@
       "./node_modules/@redux-saga/core/types/ts3.6/index.d.ts",
       "./node_modules/@redux-saga/core/types/ts3.6/effects.d.ts",
       "./node_modules/redux-saga/effects.d.ts",
+      "./src/utils/api.ts",
+      "./src/modules/users/users-api.ts",
+      "./src/modules/users/users-reducer.ts",
+      "./src/modules/users/users-workers.ts",
+      "./src/modules/users/users-watchers.ts",
       "./src/modules/users/index.ts",
-      "./src/containers/login-container.ts",
       "./src/containers/index.tsx",
+      "./src/hoc/header/header-hoc.tsx",
+      "./src/hoc/layout/layout-hoc.tsx",
+      "./src/hoc/main/main-hoc.tsx",
+      "./src/hoc/side-nav/side-nav-hoc.tsx",
       "./src/hoc/index.ts",
+      [
+        "./src/components/app/app-component.tsx",
+        [
+          {
+            "file": "./src/components/app/app-component.tsx",
+            "start": 681,
+            "length": 4,
+            "code": 2741,
+            "category": 1,
+            "messageText": "Property 'isAuth' is missing in type '{ children: Element; }' but required in type 'Pick<PageProps, \"children\" | \"isAuth\">'.",
+            "relatedInformation": [
+              {
+                "file": "./src/hoc/page/page-hoc.tsx",
+                "start": 98,
+                "length": 6,
+                "messageText": "'isAuth' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
       "./src/components/app/index.ts",
+      "./node_modules/@types/classnames/types.d.ts",
+      "./node_modules/@types/classnames/index.d.ts",
+      "./src/types/theme/index.d.ts",
+      "./src/components/theme/buttons/button-component.tsx",
+      "./src/components/theme/buttons/index.ts",
       "./src/hoc/header/index.ts",
       "./src/hoc/layout/index.ts",
       "./src/hoc/main/index.ts",
       "./src/hoc/side-nav/index.ts",
-      "./src/redux/reducers/index.ts",
+      "./src/modules/app/app-actions.ts",
       "./node_modules/redux-devtools-extension/index.d.ts",
       "./node_modules/redux-saga/index.d.ts",
       "./src/types/lib.d.ts",
@@ -2898,49 +3087,16 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./src/modules/users/users-actions.ts",
-      "./src/components/login/login-component.tsx",
-      "./src/utils/api.ts",
-      "./src/modules/users/users-api.ts",
-      "./src/modules/users/users-reducer.ts",
-      "./src/modules/users/users-workers.ts",
-      "./src/modules/users/users-watchers.ts",
+      "./src/modules/app/app-reducer.ts",
+      "./src/modules/app/index.ts",
       "./src/modules/index.ts",
-      "./src/hoc/header/header-hoc.tsx",
-      "./src/hoc/layout/layout-hoc.tsx",
-      "./src/hoc/main/main-hoc.tsx",
-      "./src/hoc/side-nav/side-nav-hoc.tsx",
-      "./src/components/theme/buttons/button-component.tsx",
-      "./src/components/theme/buttons/index.ts",
-      [
-        "./src/components/app/app-component.tsx",
-        [
-          {
-            "file": "./src/components/app/app-component.tsx",
-            "start": 750,
-            "length": 6,
-            "code": 2322,
-            "category": 1,
-            "messageText": {
-              "messageText": "Type '{ children: string; type: string; }' is not assignable to type 'IntrinsicAttributes'.",
-              "category": 1,
-              "code": 2322,
-              "next": [
-                {
-                  "messageText": "Property 'children' does not exist on type 'IntrinsicAttributes'.",
-                  "category": 1,
-                  "code": 2339
-                }
-              ]
-            }
-          }
-        ]
-      ],
+      "./src/redux/reducers/index.ts",
       "./src/redux/store/dev.ts",
+      "./src/start/prod.tsx",
+      "./src/containers/login-container.ts",
       "./src/redux/store/prod.ts",
       "./src/redux/store/index.ts",
-      "./src/start/dev.tsx",
-      "./src/start/prod.tsx"
+      "./src/start/dev.tsx"
     ]
   },
   "version": "3.7.4"
