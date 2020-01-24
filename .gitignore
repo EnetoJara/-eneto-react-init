@@ -10,7 +10,7 @@ lerna-debug.log*
 /dist-tsc/
 /dist-webpack/
 /build/
-tsBuildInfoFile.json
+/tsBuildInfoFile.json
 
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
