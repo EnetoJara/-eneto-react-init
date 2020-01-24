@@ -230,7 +230,7 @@
         "signature": "de25c073e95a4ba8b4556147c8cef60fa0a7aba72d424dd53d898ec071949a90"
       },
       "./src/hoc/page/page-hoc.tsx": {
-        "version": "9ad176f5e8bd0d2b37c2a5d731c18d66728d69c7e0844977d7269a02db6ab866",
+        "version": "fc9edfb110ea0faaae7f2cb1e4deeb6932f0211f60ff849abd9e340e63abb4db",
         "signature": "3846827b99bde45ed4145c16e2f35fe4f966e7998c1ac1977797da413f9fb9f3"
       },
       "./src/hoc/page/index.ts": {
@@ -330,8 +330,8 @@
         "signature": "019f97db26d1eb642e0fc83aa0bb597c49dddacd6481495754da8e5f843e9644"
       },
       "./src/modules/app/app-reducer.ts": {
-        "version": "9ca94a04d5894ea329de606916c173c07cbe21a2565df6ad5493d2620d7cda1c",
-        "signature": "1477d056369a2680a0e7690ecb758ecf7f54f26162d002e6791ec1805657c82f"
+        "version": "18033ffbed5f6e9fa07424eca082c39ce0fd1e5280ad3b19e186f5fa15d6aea3",
+        "signature": "50d26e56acf6ca6d93f11446c054b47d2c1989d7bf17229f4c4012a8b4afcd1a"
       },
       "./src/modules/app/index.ts": {
         "version": "b8da3a88651b2d8d50e307a716e9f8c0447f17d118b84b0e06a6a025a42c6348",
@@ -370,7 +370,7 @@
         "signature": "a95482bf5c2cc818f972e6236a087931198edd41109d0a20bf5c4ed78252d269"
       },
       "./src/components/app/app-component.tsx": {
-        "version": "aaccfc75b5867761142f59b5f510d657e4c5b21611889995dcd89d97a3b67835",
+        "version": "c5623a2db291a226bd54ec87c2096f55b5e176d683c6061f32b0379ee012467e",
         "signature": "915df05b89c26bfd7a4e5db4100b7fa0545b8617b7cc3887a04a6d26c29a55d9"
       },
       "./src/components/app/index.ts": {
@@ -386,20 +386,36 @@
         "signature": "b16c6ab962274dc23b0c57aba4425c3265cc05ad84782b8db5a344df6ad0f8f1"
       },
       "./src/types/theme/index.d.ts": {
-        "version": "44687a9f0d3f73b8ef8908c9558b43a2bfdcd50420f708bbcdfe0c4966279c49",
-        "signature": "44687a9f0d3f73b8ef8908c9558b43a2bfdcd50420f708bbcdfe0c4966279c49"
+        "version": "2b996734b200ed8fd36bd97aea60e006788b784c26ad6a86f5396b82551f850c",
+        "signature": "2b996734b200ed8fd36bd97aea60e006788b784c26ad6a86f5396b82551f850c"
       },
       "./src/components/theme/buttons/button-component.tsx": {
-        "version": "75696dade3f1e55a472078a018bb5d3dc3a565507f21d2f8fd016332957e992a",
-        "signature": "2f936d02444083bcb3274a4c9316f03fcd0a77777319cb40b32c85107743c868"
+        "version": "59e69b7e2349efdc289a873b4c036860d0a83b397153374df795cc49d38c0898",
+        "signature": "192984cb6bba348934ba0152a80ae8621012635722f798467189bdfcd2ae09b5"
       },
       "./src/components/theme/buttons/index.ts": {
         "version": "b8754c344425ee9945af4aab53434b89547d25368d0019777166d7141fb71bea",
         "signature": "32b5af0141c5a9fc2613adac171acb49ebd1d79837828c96b2ee15260526c3f9"
       },
+      "./src/hoc/if/if-hoc.tsx": {
+        "version": "1370f5bab959b55222c3e4cfeab36e9d6d7e112e7893b9254ad579c98266771b",
+        "signature": "f5c68f3b1d42d9e8ff8a8ed7556cf20bca920d1ae26e3f7a117e9765be7f1f9f"
+      },
+      "./src/components/theme/input/input-component.tsx": {
+        "version": "17645bdd9d90a81a8625e1f9578b16f02321cee9fbaffa2a6c84895475aad92e",
+        "signature": "af79a7b11c622e64c6b8cc5c2852015192bc5180dd1e8c4923d550803eb06067"
+      },
+      "./src/components/theme/input/index.ts": {
+        "version": "0f277f1ba1abb0aa29c514ce132051997c805d2d445a7e02d33647b62eecd904",
+        "signature": "cc1b1464f2798f7332ab2a8e897144609df03bb5f38a6a002467f07067afb4aa"
+      },
       "./src/hoc/header/index.ts": {
         "version": "c46e50383a2ca559ec845eb03b2ef722bfd3de5898df3933afb0d8e114e837d7",
         "signature": "75679ba2d23d2f12c0aea1b3d603e7d97f5c3f4000df05b516581ad0edb4f72c"
+      },
+      "./src/hoc/if/index.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "3835f8d92ad0699690cf572ad0da8aa3bfa5cc1c66fbd2609c52a02b9da828dc"
       },
       "./src/hoc/layout/index.ts": {
         "version": "fb7040d836c358a36d33f55724a302eeeeff9e4b1fc236cd07b1f1a11722463a",
@@ -414,8 +430,8 @@
         "signature": "fe9e59c9a2b2802bcbecfcc59b9ac6a6dc898f0c29d986802c609710debc1efa"
       },
       "./src/modules/app/app-actions.ts": {
-        "version": "b3274f3923f5ea21a235be6efa98aca3171ddb12befe70b703d7f36ae7833596",
-        "signature": "fc555889022e3bf456f1aba15b2999252e680c2f34d2ccf08caae9a9d62dc6a5"
+        "version": "a02e8c30a55d9e7a5e65d6fac543d3368125667a825096daa027c6626a583be4",
+        "signature": "69d5352c29cab4fff85d1ea0e7b8d1ba8f91046b2d69fb252b2f95fff34e7255"
       },
       "./src/redux/reducers/index.ts": {
         "version": "39b7f2034685eab4c9663976188ba1e4585717f8c0f6c2dc9f8dc6e260e09aa8",
@@ -430,7 +446,7 @@
         "signature": "7b6e484e6b248b0b2c9393549bae07b882bb50e997f1da5eb2405c33a1fd8c1e"
       },
       "./src/redux/store/dev.ts": {
-        "version": "ef954d44223b2d944c88cff23e19987cefc0014b7868fbfaf5332ea646087e83",
+        "version": "983079b485db124fc378ad02e2f6087d5cee5f2879d9b7dc494fcf9318535ff0",
         "signature": "0e1d640e2ed431b5ef652b0d742f2571ea18ccc9c33cc7eaee6747e044daf9e6"
       },
       "./src/redux/store/prod.ts": {
@@ -454,7 +470,7 @@
         "signature": "915d4021ab32686852fda4fe863033482277c485ab9e6e5f6611d6f29d598fcd"
       },
       "./src/start/prod.tsx": {
-        "version": "45608ab65304399f92db1c88b6c8de227049594f78d57e0dbdf69ffad0adc42d",
+        "version": "411a919dd77639cfc9aac58e81caad9e8bdbd03631e8ebf25189d196351c37be",
         "signature": "f4001287c6e14d11070b13e85a7b0ba8c45dd5751ad5a54279d31dac4feeb32d"
       },
       "./node_modules/@types/node/globals.d.ts": {
@@ -1393,6 +1409,7 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/types/theme/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1414,8 +1431,39 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/hoc/if/if-hoc.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/theme/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/components/theme/input/input-component.tsx": [
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/theme/index.d.ts",
+        "./src/hoc/if/if-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/components/theme/input/index.ts": [
+        "./src/components/theme/input/input-component.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/hoc/header/index.ts": [
         "./src/hoc/header/header-hoc.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/hoc/if/index.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2417,6 +2465,9 @@
       "./src/modules/app/app-reducer.ts": [
         "./src/types/resume-app/index.d.ts"
       ],
+      "./src/modules/app/index.ts": [
+        "./src/modules/app/app-reducer.ts"
+      ],
       "./src/modules/index.ts": [
         "./src/modules/users/index.ts",
         "./src/modules/app/index.ts",
@@ -2471,6 +2522,7 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/types/theme/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2482,6 +2534,17 @@
       ],
       "./src/components/theme/buttons/index.ts": [
         "./src/components/theme/buttons/button-component.tsx"
+      ],
+      "./src/hoc/if/if-hoc.tsx": [
+        "./src/types/theme/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/theme/input/input-component.tsx": [
+        "./src/types/theme/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/theme/input/index.ts": [
+        "./src/components/theme/input/input-component.tsx"
       ],
       "./src/hoc/header/index.ts": [
         "./src/hoc/header/header-hoc.tsx"
@@ -2909,9 +2972,6 @@
         "./node_modules/@types/node/ts3.2/globals.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
-      ],
-      "./src/modules/app/index.ts": [
-        "./src/modules/app/app-reducer.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2997,50 +3057,53 @@
       "./src/modules/users/users-workers.ts",
       "./src/modules/users/users-watchers.ts",
       "./src/modules/users/index.ts",
+      "./src/modules/app/app-reducer.ts",
+      "./src/modules/app/index.ts",
+      "./src/modules/index.ts",
+      "./src/containers/login-container.ts",
       "./src/containers/index.tsx",
       "./src/hoc/header/header-hoc.tsx",
       "./src/hoc/layout/layout-hoc.tsx",
       "./src/hoc/main/main-hoc.tsx",
       "./src/hoc/side-nav/side-nav-hoc.tsx",
       "./src/hoc/index.ts",
-      [
-        "./src/components/app/app-component.tsx",
-        [
-          {
-            "file": "./src/components/app/app-component.tsx",
-            "start": 681,
-            "length": 4,
-            "code": 2741,
-            "category": 1,
-            "messageText": "Property 'isAuth' is missing in type '{ children: Element; }' but required in type 'Pick<PageProps, \"children\" | \"isAuth\">'.",
-            "relatedInformation": [
-              {
-                "file": "./src/hoc/page/page-hoc.tsx",
-                "start": 98,
-                "length": 6,
-                "messageText": "'isAuth' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
-          }
-        ]
-      ],
+      "./src/components/app/app-component.tsx",
       "./src/components/app/index.ts",
       "./node_modules/@types/classnames/types.d.ts",
       "./node_modules/@types/classnames/index.d.ts",
       "./src/types/theme/index.d.ts",
       "./src/components/theme/buttons/button-component.tsx",
       "./src/components/theme/buttons/index.ts",
+      "./src/hoc/if/if-hoc.tsx",
+      "./src/components/theme/input/index.ts",
       "./src/hoc/header/index.ts",
+      [
+        "./src/hoc/if/index.ts",
+        [
+          {
+            "file": "./src/hoc/if/index.ts",
+            "start": 0,
+            "length": 0,
+            "messageText": "All files must be modules when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 1208
+          }
+        ]
+      ],
       "./src/hoc/layout/index.ts",
       "./src/hoc/main/index.ts",
       "./src/hoc/side-nav/index.ts",
       "./src/modules/app/app-actions.ts",
+      "./src/redux/reducers/index.ts",
       "./node_modules/redux-devtools-extension/index.d.ts",
       "./node_modules/redux-saga/index.d.ts",
+      "./src/redux/store/dev.ts",
+      "./src/redux/store/prod.ts",
+      "./src/redux/store/index.ts",
       "./src/types/lib.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
+      "./src/start/dev.tsx",
+      "./src/start/prod.tsx",
       "./node_modules/@types/node/globals.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
@@ -3087,16 +3150,7 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./src/modules/app/app-reducer.ts",
-      "./src/modules/app/index.ts",
-      "./src/modules/index.ts",
-      "./src/redux/reducers/index.ts",
-      "./src/redux/store/dev.ts",
-      "./src/start/prod.tsx",
-      "./src/containers/login-container.ts",
-      "./src/redux/store/prod.ts",
-      "./src/redux/store/index.ts",
-      "./src/start/dev.tsx"
+      "./src/components/theme/input/input-component.tsx"
     ]
   },
   "version": "3.7.4"

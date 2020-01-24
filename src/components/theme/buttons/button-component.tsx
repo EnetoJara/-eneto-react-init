@@ -1,6 +1,6 @@
 import * as cx from "classnames";
 import * as React from "react";
-import { ButtonProps } from '../../../types/theme';
+import { ButtonProps } from "../../../types/theme";
 
 /**
  * Button.
@@ -8,13 +8,18 @@ import { ButtonProps } from '../../../types/theme';
  * @param {ButtonProps} props button's props
  * @returns {React.ReactElement<ButtonProps>} Button.
  */
-export function Button (props: ButtonProps): React.ReactElement<ButtonProps> {
-    const {children, solid=false, kind="default", ...rest} = props;
-    return <button className={cx({
-        button: true,
-        [kind]: true,
-        solid: solid
-    })} {...rest}>
-        {children}
-    </button>;
+export function Button(props: ButtonProps): React.ReactElement<ButtonProps> {
+    const { children, solid = false, kind = "default", ...rest } = props;
+    return (
+        <button
+            className={cx({
+                button: true,
+                [kind]: true,
+                solid: solid
+            })}
+            {...rest}
+        >
+            {children}
+        </button>
+    );
 }

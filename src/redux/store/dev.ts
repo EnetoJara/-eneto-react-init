@@ -2,7 +2,7 @@ import { applyMiddleware, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import createSagaMiddleware from "redux-saga";
 import { AppState } from "resume-app";
-import { initPageState } from '../../modules/app/app-reducer';
+import { initPageState } from "../../modules/app/app-reducer";
 import { initUserState } from "../../modules/users/users-reducer";
 import { rootReducer } from "../reducers";
 

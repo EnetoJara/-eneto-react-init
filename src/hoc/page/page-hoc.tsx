@@ -6,25 +6,20 @@ export interface PageProps {
 }
 
 export class Page extends React.Component<PageProps> {
-   public constructor (props: PageProps) {
+    public constructor(props: PageProps) {
         super(props);
-   }
+    }
 
-   public componentDidMount () {
-       const { isAuth } = this.props;
+    public componentDidMount() {
+        const { isAuth } = this.props;
 
-       if (!isAuth) {
+        if (!isAuth) {
             window.location.pathname = "/login";
-       }
+        }
+    }
 
-   }
-
-   public render () {
-    const { children } = this.props;
-       return (
-           <div className="app-layout-page">
-               {children}
-           </div>
-       )
-   }
+    public render() {
+        const { children } = this.props;
+        return <div className="app-layout-page">{children}</div>;
+    }
 }

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf ./dist* && rimraf build",
-    "pretty:css": "prettier-stylelint ./src/styles/*.scss --color --write",
-    "pretty:ts": "prettier ./src/*.ts ./src/**/*.{ts,tsx} ./src/**/**/*.{ts,tsx} ./src/**/**/**/*.{ts,tsx} --write",
+    "pretty:css": "prettier-stylelint ./src/styles/*.scss ./src/styles/**/*.scss --color --write",
+    "pretty:ts": "prettier ./src/*.ts ./src/**/*.{ts,tsx} ./src/**/**/*.{ts,tsx} ./src/**/**/**/*.{ts,tsx} --color --write",
     "pretty": "npm run clean && run-p -l pretty:*",
     "test": "echo \"Error: no test specified\" && exit 1",
     "resolve": "npm run clean && tsc --traceResolution",

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/-eneto-react-init.iml" filepath="$PROJECT_DIR$/.idea/-eneto-react-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/init-react.iml" filepath="$PROJECT_DIR$/.idea/init-react.iml" />
     </modules>
   </component>
 </project>

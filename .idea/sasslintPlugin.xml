@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SassLintProjectComponent">
-    <option name="configFile" value=".sass-lint.yml" />
-    <option name="lintExecutable" value="$PROJECT_DIR$/node_modules/.bin/sass-lint" />
-    <option name="nodeInterpreter" value="$PROJECT_DIR$/node_modules/sass-lint/bin/sass-lint.js" />
-    <option name="pluginEnabled" value="true" />
+    <option name="nodeInterpreter" value="" />
   </component>
 </project>

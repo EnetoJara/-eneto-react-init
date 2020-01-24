@@ -79,6 +79,7 @@ module.exports = {
             "always"
         ],
         "@typescript-eslint/unbound-method": 0,
+        "@typescript-eslint/indent":  ["error",4],
         "no-console": 0,
         "react/jsx-indent": ["error",4],
         "max-len": ["error", 120],

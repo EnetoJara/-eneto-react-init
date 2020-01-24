@@ -1,10 +1,10 @@
-import { AppAction, PageState } from 'resume-app';
-import { APP_LOADING, TOGGLE_SIDE_NAV } from '../../utils/constants';
+import { AppAction, PageState } from "resume-app";
+import { APP_LOADING, TOGGLE_SIDE_NAV } from "../../utils/constants";
 
 export const initPageState = {
     loading: false,
     showSideNav: true
-}
+};
 
 function clean(state: PageState): PageState {
     return {
