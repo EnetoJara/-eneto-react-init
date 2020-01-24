@@ -23,7 +23,14 @@
     "start": "NODE_ENV=development webpack-dev-server --mode=development --config=config/webpack.dev.js",
     "server": "NODE_ENV=production node index.js"
   },
-
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run clean && npm run resolve",
+      "pre-push": "npm run clean",
+      "pre-resolve": "npm run clean",
+      "pre-lint": "npm run clean && npm run pretty:ts"
+    }
+  },
   "browserslist": {
     "production": [
       ">1%",
