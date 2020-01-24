@@ -1,0 +1,384 @@
+{
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    "css.validate":false,
+    "scss.validate":false,
+    "color-highlight.enable": true,
+    "color-highlight.matchWords": true,
+    "color-highlight.languages": [
+        "*"
+      ],
+    "editor.parameterHints.cycle": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabCompletion": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.snippetSuggestions": "top",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.simpleDialog.enable": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "docthis.authorName": "Ernesto Jara Olveda",
+    "git.allowForcePush": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "markdown.preview.breaks": true,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "npm.enableScriptExplorer": true,
+    "npm.enableRunFromFolder": true,
+    "prettier.configPath": "./.prettierrc",
+    "bracketPairColorizer.colorMode": "Independent",
+    "typescript.autoClosingTags": true,
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.suggest.completeJSDocs":true,
+    "javascript.suggest.autoImports":true,
+    "javascript.preferences.quoteStyle": "double",
+    "editor.showUnused": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "javascript.suggestionActions.enabled":true,
+    "javascript.referencesCodeLens.enabled":true,
+    "javascript.updateImportsOnFileMove.enabled":"always",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+
+    // Controls the delay in ms after which quick suggestions will show up.
+    "editor.quickSuggestionsDelay": 10,
+
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": true,
+
+    // Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+
+    // Controls whether sorting favours words that appear close to the cursor
+    "editor.suggest.localityBonus": true,
+
+    // Controls how suggestions are pre-selected when showing the suggest list
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": true,
+    "editor.cursorSurroundingLinesStyle": "all",
+    "workbench.enableExperiments": true,
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+    // Enable parameter hints
+    "editor.parameterHints.enabled": true,
+    "editor.matchBrackets": "always",
+    "files.exclude": {
+        "**/node_modues": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+      },
+      // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the `files.exclude` setting. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options).
+      "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+      },
+    "files.watcherExclude": {
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/scripts/**": true
+    },
+    "jsdoc.author": "Ernesto Jara Olveda",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "eneto-ui",
+    "editor.fontFamily": "'Operator Mono','Cascadia Code'",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.autoSurround": "languageDefined",
+    "autoimport.doubleQuotes": true,
+    "editor.suggest.showColors": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggest.shareSuggestSelections": true,
+    "files.autoGuessEncoding": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.sideBar.location": "right",
+    "autoimport.useSemiColon": true,
+    "materialTheme.accent": "Yellow",
+    "files.associations": {
+        "*.ts": "typescript"
+    },
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "vsintellicode.java.completionsEnabled": false,
+    "prettier.arrowParens": "always",
+    "typescript.tsserver.trace": "messages",
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.importQuotes": "\"",
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "dependencyAnalyticsServer.trace.server": "verbose",
+    "window.zoomLevel": 0,
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path": "/home/eneto/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path": "/home/eneto/.vs-kubernetes/tools/draft/linux-amd64/draft",
+        "vs-kubernetes.kubectl-path": "/home/eneto/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path": "/home/eneto/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#000",
+		"editor.background": "#000",
+		"editorIndentGuide.background": "#000",
+		"activityBar.background": "#000",
+		"badge.background": "#000",
+		"breadcrumb.background": "#000",
+		"breadcrumbPicker.background": "#000",
+		"button.background": "#000",
+		"checkbox.background": "#000",
+		"debugExceptionWidget.background": "#000",
+		"debugToolBar.background": "#000",
+		"dropdown.background": "#000",
+		"editorBracketMatch.background": "#000",
+		"editorGutter.background": "#000",
+		"editorHoverWidget.background": "#000",
+		"editorMarkerNavigation.background": "#000",
+		"editorMarkerNavigationError.background": "#000",
+		"editorMarkerNavigationInfo.background": "#000",
+		"editorMarkerNavigationWarning.background": "#000",
+		"editorPane.background": "#000",
+		"editorSuggestWidget.background": "#000",
+		"editorWidget.background": "#000",
+		"input.background": "#000",
+		"listFilterWidget.background": "#000",
+		"menu.background": "#000",
+		"notificationCenterHeader.background": "#000",
+		"notifications.background": "#000",
+		"panel.background": "#000",
+		"peekViewEditor.background": "#000",
+		"peekViewEditorGutter.background": "#000",
+		"peekViewResult.background": "#000",
+		"peekViewTitle.background": "#000",
+		"progressBar.background": "#000",
+		"quickInput.background": "#000",
+		"scrollbarSlider.background": "#000",
+		"sideBar.background": "#000",
+		"sideBarSectionHeader.background": "#000",
+		"statusBar.background": "#000",
+		"terminal.background": "#000",
+		"textBlockQuote.background": "#000",
+        "textCodeBlock.background": "#000",
+        "activityBar.activeBorder": "#ffffff",
+		//"inputOption.activeBorder": "#007acc00",
+		//"panelTitle.activeBorder": "#e7e7e7",
+        "[Material Gecko]": {
+            "editorError.foreground": "#ff0000",
+            "menu.border": "#ffb600",
+            "tab.border": "#ff0000"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+
+        "[Material Gecko]": {
+
+            "keywords": "#ffb600",
+            "functions": "#00fff2",
+            "types": "#09ff00",
+            "strings": "#c0880e",
+            "comments": "#00fff2",
+            "numbers": "#FF0000",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.operator",
+                        "keyword",
+                        "keyword.control",
+                        "keyword.operator.arithmetic",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical",
+                        "keyword.operator.new",
+                        "keyword.other"
+                    ],
+                    "settings": {
+                        "foreground": "#00ffff",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant",
+                        "constant.character",
+                        "constant.character.escape",
+                        "constant.numeric",
+                        "constant.numeric.float",
+                        "constant.numeric.hex",
+                        "constant.numeric.integer",
+                        "constant.numeric.octal",
+                        "constant.other",
+                        "constant.regexp",
+                        "constant.rgb-value",
+                        "support.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#00ff0d",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "emphasis",
+                        "entity",
+                        "entity.name",
+                        "entity.name.*"
+                    ],
+                    "settings": {
+                        "foreground": "#FFb600",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup"
+                    ],
+                    "settings": {
+                        "foreground": "#bbff00",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.*"
+                    ],
+                    "settings": {
+                        "foreground": "#00ff2a"
+                    }
+                },
+                {
+                    "scope": "markup.*.*",
+                    "settings": {
+                        "foreground": "#00ffea",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                    ],
+                    "settings": {
+                        "foreground": "#9900ff",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "variable.name",
+                    "settings": {
+                        "foreground": "#ff00ff",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.readwrite"
+                    ],
+                    "settings": {
+                        "foreground": "#ff0055",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+
+        }
+    },
+    "workbench.editor.showTabs": true,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "editor.fontWeight": "300",
+    "color-highlight.markerType": "background, 'dot-before'"
+}
