@@ -69,7 +69,8 @@
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
-    "pretty": true
+    "pretty": true,
+    "traceResolution": true
   },
   "exclude": [
       "./.git/",

@@ -8,3 +8,8 @@ export const Login = Loadable({
     loader: () => import(/* webpackChunkName: "login" */ "./login-container"),
     loading: Loading
 });
+
+export const Register = Loadable({
+    loader: () => import(/* webpackChunkName: "register" */ "./register-container"),
+    loading: Loading
+});

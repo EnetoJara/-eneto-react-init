@@ -19,10 +19,11 @@ process.env.NODE_PATH = (process.env.NODE_PATH || "")
     .join(path.delimiter);
 
 module.exports = function () {
-    const ENETO = /^ENETO_/i;
+    const ENETO = /^CLIENT_/i;
     const ROUTE = /^ROUTE_/i;
+    const API = /^API_/i;
     const raw = Object.keys(process.env)
-        .filter(key => ENETO.test(key) || ROUTE.test(key))
+        .filter(key => ENETO.test(key) || API.test(key) || ROUTE.test(key))
         .reduce(
             (env, key) => {
                 env[key] = process.env[key];
@@ -30,7 +31,7 @@ module.exports = function () {
             },
             {
                 NODE_ENV,
-                PUBLIC_URL: process.env.ENETO_PUBLIC_URL,
+                PUBLIC_URL: process.env.PUBLIC_URL,
                 GENERATE_SOURCEMAP: process.env.GENERATE_SOURCEMAP,
             }
         );

@@ -107,13 +107,13 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "workbench.colorTheme": "eneto-ui",
-    "editor.fontFamily": "'Operator Mono','Cascadia Code'",
+    "editor.fontFamily": "'Operator Mono','Fira Code'",
     "editor.acceptSuggestionOnCommitCharacter": true,
     "editor.autoSurround": "languageDefined",
     "autoimport.doubleQuotes": true,
     "editor.suggest.showColors": true,
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontFamily": "Fira Code",
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -380,5 +380,6 @@
         }
     ],
     "editor.fontWeight": "300",
+    "editor.fontSize": 16,
     "color-highlight.markerType": "background, 'dot-before'"
 }

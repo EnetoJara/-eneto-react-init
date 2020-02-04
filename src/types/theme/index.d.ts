@@ -15,3 +15,11 @@ export interface IfProps {
     condition: boolean;
     children: React.ReactNode;
 }
+
+export interface RowProps {
+    children: React.ReactNode;
+}
+
+export interface ColumnProps {
+    children: React.ReactNode;
+}

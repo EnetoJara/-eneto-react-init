@@ -4,7 +4,7 @@ import { InputProps } from "theme";
 import { If } from "../../../hoc/if";
 
 export function Input(props: InputProps): React.ReactElement<InputProps> {
-    const { error, label, ...rest } = props;
+    const { error, id, label, ...rest } = props;
 
     const hasError = error.trim().length > 0;
     return (
@@ -14,8 +14,10 @@ export function Input(props: InputProps): React.ReactElement<InputProps> {
                 "has-error": hasError
             })}
         >
-            <span>{label}</span>
-            <input {...rest} />
+            <label htmlFor={id}>
+                {label}
+                <input id={id} {...rest} />
+            </label>
             <If condition={hasError}>
                 <div className="valid-feedback">{error}</div>
             </If>

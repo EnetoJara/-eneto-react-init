@@ -49,10 +49,10 @@
 		"scope": "javascript, typescript, javascriptreact, typescriptreact",
 		"prefix": "rcc",
 		"body": [
-			"import React, { Component, ReactElement } from 'react';\n",
+			"import * as React from 'react';\n",
 			"export interface ${1:ClassComponent}Props {};",
 			"export type ${1:ClassComponent}State = any;\n",
-			"export class ${1:ClassComponent} extends Component {\n",
+			"export class ${1:ClassComponent} extends React.Component<${1:ClassComponent}Props, ${1:ClassComponent}State> {\n",
 			"\tpublic state: ${1:ClassComponent}State;",
 			"\tpublic constructor (props: ${1:ClassComponent}Props) {",
 			"\t\tsuper(props);\n",
@@ -62,7 +62,7 @@
 			"\tpublic componentDidMount () {",
 			"\t\tconsole.log('${1:ClassComponent} mounted');",
 			"\t}\n",
-			"\tpublicrender (): ReactElement<${1:ClassComponent}Props> {",
+			"\tpublic render (): ReactElement<${1:ClassComponent}Props> {",
 			"\t\treturn (<div> component </div>);",
 			"\t}",
 			"}"
@@ -73,9 +73,9 @@
 		"scope": "javascript, typescript, javascriptreact, typescriptreact",
 		"prefix": "rfc",
 		"body": [
-			"import React, {ReactElement} from 'react';\n",
+			"import * as React from 'react';\n",
 			"export interface ${1:ClassComponent}Props {};",
-			"export function ${1:ReactComponent} (props: ${1:ReactComponent}Props): ReactElement<${1:ReactComponent}Props> {",
+			"export function ${1:ReactComponent} (props: ${1:ReactComponent}Props): React.ReactElement<${1:ReactComponent}Props> {",
 			"\tconst {  } = props;",
 			"\treturn (<div>function</div>);",
 			"}"
@@ -179,19 +179,31 @@
 	"const": {
 		"scope": "javascript, typescript, javascriptreact, typescriptreact",
 		"description": "user snippet",
-		"prefix": "ct",
+		"prefix": "cv",
 		"body": "const ${1:VarNAme} = ${2:value};"
 	},
 	"constant": {
 		"scope": "javascript, typescript, javascriptreact, typescriptreact",
 		"description": "user snippet",
-		"prefix": "at",
+		"prefix": "et",
 		"body": "export const ${1:CONTANT_NAME} = ${2:CONSTANT_VALUE};"
 	},
 	"const state": {
 		"scope": "javascript, typescript, javascriptreact, typescriptreact",
 		"description": "user snippet",
-		"prefix": "at",
+		"prefix": "cgs",
 		"body": "const { ${1:prop} } = this.state"
-	}
+	},
+	"const props": {
+		"scope": "javascript, typescript, javascriptreact, typescriptreact",
+		"description": "user snippet",
+		"prefix": "cgp",
+		"body": "const { ${1:prop} } = this.props"
+    },
+    "export interface": {
+        "scope": "javascript, typescript, javascriptreact, typescriptreact",
+		"description": "user snippet",
+		"prefix": "ei",
+		"body": "export interface ${1:Name} {}"
+    }
 }

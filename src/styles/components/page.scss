@@ -1,0 +1,12 @@
+.app-layout-page {
+    margin:1rem;
+    padding: 2rem 1rem;
+    box-shadow: $shadow;
+    background-color: white;
+
+    .page-title {
+        text-align: center;
+        color: $primary-color-light;
+        text-shadow: 2px 2px 4px $primary-color-dark;
+    }
+}

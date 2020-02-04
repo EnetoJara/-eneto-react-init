@@ -3,7 +3,7 @@ import { APP_LOADING, TOGGLE_SIDE_NAV } from "../../utils/constants";
 
 export const initPageState = {
     loading: false,
-    showSideNav: true
+    showSideNav: false
 };
 
 function clean(state: PageState): PageState {
