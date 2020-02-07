@@ -22,21 +22,30 @@
 
     &-row {
         display: flex;
-        flex-flow: column;
-        align-items: flex-start;
+        flex-flow: row wrap;
+        align-items: center;
         justify-content: center;
     }
 
     &-column {
-        flex: 1;
-        display: flex;
-        flex-flow: column;
-        align-items: flex-start;
-        justify-content: center;
+        width: 100%;
     }
 }
 
 .toggle {
     display: block;
     width: 25rem;
+}
+
+@include bg-cell {
+    .app-layout-column {
+        flex: 1
+    }
+}
+
+@include tablet-xl {
+    .app-layout-column {
+        flex: 1;
+        margin: 0 1rem;
+    }
 }

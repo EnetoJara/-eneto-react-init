@@ -4,5 +4,5 @@ import { ColumnProps } from "../../types/theme/index";
 export function Column(props: ColumnProps): React.ReactElement<ColumnProps> {
     const { children } = props;
 
-    return <div className="app-Column">{children}</div>;
+    return <div className="app-layout-column">{children}</div>;
 }

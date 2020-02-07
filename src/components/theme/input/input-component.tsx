@@ -4,22 +4,22 @@ import { InputProps } from "theme";
 import { If } from "../../../hoc/if";
 
 export function Input(props: InputProps): React.ReactElement<InputProps> {
-    const { error, id, label, ...rest } = props;
+    const { error="error", id, label, onFocus, ...rest } = props;
 
     const hasError = error.trim().length > 0;
     return (
         <div
             className={cx({
-                "from-control": true,
+                "form-control": true,
                 "has-error": hasError
             })}
         >
             <label htmlFor={id}>
                 {label}
-                <input id={id} {...rest} />
-            </label>
+                <input id={id} {...rest} onFocus={onFocus} />
+                </label>
             <If condition={hasError}>
-                <div className="valid-feedback">{error}</div>
+                <small className="er">{error}</small>
             </If>
         </div>
     );
