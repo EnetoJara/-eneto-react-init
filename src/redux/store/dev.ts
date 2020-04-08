@@ -8,7 +8,7 @@ import { rootReducer } from "../reducers";
 
 const state: AppState = {
     user: initUserState,
-    app: initPageState
+    app: initPageState,
 };
 
 function configureStore(initialState: AppState) {
@@ -17,7 +17,7 @@ function configureStore(initialState: AppState) {
 
     return {
         ...createStore(rootReducer, initialState, composeWithDevTools(applyMiddleware(...middleware))),
-        runSaga: sagaMiddleware.run
+        runSaga: sagaMiddleware.run,
     };
 }
 

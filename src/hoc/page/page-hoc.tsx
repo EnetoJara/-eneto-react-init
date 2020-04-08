@@ -6,11 +6,11 @@ export interface PageProps {
 }
 
 export class Page extends React.Component<PageProps> {
-    public constructor(props: PageProps) {
+    public constructor (props: PageProps) {
         super(props);
     }
 
-    public componentDidMount() {
+    public componentDidMount (): void {
         const { isAuth } = this.props;
 
         if (!isAuth) {
@@ -18,7 +18,7 @@ export class Page extends React.Component<PageProps> {
         }
     }
 
-    public render() {
+    public render (): React.ReactElement<PageProps> {
         const { children } = this.props;
         return <div className="app-layout-page">{children}</div>;
     }

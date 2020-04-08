@@ -9,7 +9,6 @@ export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> 
     error: string;
     value: string;
     label: string;
-    isFocus: boolean;
 }
 
 export interface IfProps {

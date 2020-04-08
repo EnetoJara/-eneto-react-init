@@ -7,3 +7,6 @@ babel.config.js
 index.js
 jest.config.js
 .stylelintrc.js
+/src/start/dev.tsx
+/src/redux/store/dev.ts
+/src/types/

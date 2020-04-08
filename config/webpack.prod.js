@@ -406,9 +406,8 @@ module.exports = {
             new WorkboxWebpackPlugin.GenerateSW({
                 clientsClaim: true,
                 exclude: [/\.map$/, /asset-manifest\.json$/],
-                importWorkboxFrom: "cdn",
                 navigateFallback: "/index.html",
-                navigateFallbackBlacklist: [
+                navigateFallbackDenylist: [
                     new RegExp("^/_"),
 
                     new RegExp("/[^/?]+\\.[^/]+$"),

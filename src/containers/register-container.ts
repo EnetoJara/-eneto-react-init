@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { Register } from '../components/register';
+import { Register } from "../components/register";
 
 const mapStateToProps = null;
 

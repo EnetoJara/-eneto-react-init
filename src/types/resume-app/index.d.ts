@@ -1,6 +1,11 @@
-import { Action } from "redux";
+import { Action, CombinedState, Observable, Store } from "redux";
+import { Dispatch, Reducer } from "react";
+import { Task, Unsubscribe, Saga } from "redux-saga";
 
 declare module "resume-app" {
+    interface ObjectLiteral {
+        [x: string]: any;
+    }
     interface PageState {
         loading: boolean;
         showSideNav: boolean;
@@ -26,12 +31,24 @@ declare module "resume-app" {
         app: PageState;
     }
 
-    interface LoginCredentials {
+    interface LoginStateToProps {
+        isLogIn: boolean;
+    }
+
+    interface PageStateToProps {
+        isAuth: boolean;
+    }
+
+    interface LoginCredential extends ObjectLiteral {
         email: string;
         password: string;
     }
 
-    interface RegisterCredentials {
+    interface ConfigureStore extends Store {
+        runSaga: <S extends Saga<any[]>>(saga: S, ...args: Parameters<S>) => Task;
+    }
+
+    interface RegisterCredentials extends ObjectLiteral {
         firstName: string;
         secondName: string;
         lastName: string;

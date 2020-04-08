@@ -5,6 +5,7 @@ module.exports = {
         "es6": true
     },
     "extends": [
+        "eslint-config-prettier",
         'airbnb-typescript',
         "eslint:recommended",
         "eslint-config-jsdoc",
@@ -54,13 +55,16 @@ module.exports = {
         ]
     },
     "plugins": [
+        "prettier",
+        "@typescript-eslint",
         "react",
         "jsdoc",
         "promise",
-        "import",
-        "@typescript-eslint"
+        "import"
     ],
     "rules": {
+        "import/prefer-default-export": 0,
+        "prettier/prettier": 0,
         "linebreak-style": [
             "error",
             "unix"
@@ -74,14 +78,23 @@ module.exports = {
             "error",
             "always"
         ],
+        "@typescript-eslint/space-before-function-paren": [
+            "error",
+            "always"
+        ],
         "space-before-function-paren": [
             "error",
             "always"
         ],
         "@typescript-eslint/unbound-method": 0,
+        "react/jsx-indent": 0,
+        "react/jsx-indent-props":0,
+        "react/jsx-props-no-spreading": ["error", {
+            "html": "ignore"
+        }],
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
         "@typescript-eslint/indent":  ["error",4],
         "no-console": 0,
-        "react/jsx-indent": ["error",4],
         "max-len": ["error", 120],
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
@@ -91,5 +104,6 @@ module.exports = {
         "react/forbid-component-props": "error",
         "react/no-access-state-in-setstate": "error",
         "react/no-typos": "error",
+        'import/no-unresolved': ['error', { ignore: ['resume-app', 'theme'] }],
     }
 };

@@ -53,7 +53,7 @@
     "javascript.preferences.quoteStyle": "double",
     "editor.showUnused": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.organizeImports": false
     },
     "javascript.suggestionActions.enabled":true,
     "javascript.referencesCodeLens.enabled":true,
@@ -106,14 +106,11 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "workbench.colorTheme": "eneto-ui",
-    "editor.fontFamily": "'Operator Mono','Fira Code'",
     "editor.acceptSuggestionOnCommitCharacter": true,
     "editor.autoSurround": "languageDefined",
     "autoimport.doubleQuotes": true,
     "editor.suggest.showColors": true,
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "Fira Code",
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -155,14 +152,8 @@
     "npm-intellisense.packageSubfoldersIntellisense": true,
     "dependencyAnalyticsServer.trace.server": "verbose",
     "window.zoomLevel": 0,
-    "vs-kubernetes": {
-        "vs-kubernetes.helm-path": "/home/eneto/.vs-kubernetes/tools/helm/linux-amd64/helm",
-        "vs-kubernetes.draft-path": "/home/eneto/.vs-kubernetes/tools/draft/linux-amd64/draft",
-        "vs-kubernetes.kubectl-path": "/home/eneto/.vs-kubernetes/tools/kubectl/kubectl",
-        "vs-kubernetes.minikube-path": "/home/eneto/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
-    },
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#000",
+        "activityBarBadge.background": "#ffb600",
 		"editor.background": "#000",
 		"editorIndentGuide.background": "#000",
 		"activityBar.background": "#000",
@@ -203,9 +194,9 @@
 		"terminal.background": "#000",
 		"textBlockQuote.background": "#000",
         "textCodeBlock.background": "#000",
-        "activityBar.activeBorder": "#ffffff",
-		//"inputOption.activeBorder": "#007acc00",
-		//"panelTitle.activeBorder": "#e7e7e7",
+        "activityBar.activeBorder": "#ffb600",
+		"inputOption.activeBorder": "#ffb600",
+		"panelTitle.activeBorder": "#ffb600",
         "[Material Gecko]": {
             "editorError.foreground": "#ff0000",
             "menu.border": "#ffb600",
@@ -380,6 +371,6 @@
         }
     ],
     "editor.fontWeight": "300",
-    "editor.fontSize": 16,
+    "editor.fontSize": 20,
     "color-highlight.markerType": "background, 'dot-before'"
 }

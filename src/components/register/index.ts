@@ -1,1 +1,1 @@
-export { Register } from './resgister-component';
+export { Register } from "./resgister-component";

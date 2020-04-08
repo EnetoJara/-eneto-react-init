@@ -37,7 +37,7 @@ module.exports = {
         globalObject: "this",
     },
     devServer: {
-        port: 3001,
+        port: Number(process.env.PORT),
         contentBase: 'public',
         hot: true,
         stats:{
@@ -185,9 +185,8 @@ module.exports = {
         new WorkboxWebpackPlugin.GenerateSW({
             clientsClaim: true,
             exclude: [/\.map$/, /asset-manifest\.json$/],
-            importWorkboxFrom: "cdn",
             navigateFallback: "/index.html",
-            navigateFallbackBlacklist: [
+            navigateFallbackDenylist: [
                 new RegExp("^/_"),
 
                 new RegExp("/[^/?]+\\.[^/]+$"),

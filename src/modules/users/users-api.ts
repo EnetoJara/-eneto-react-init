@@ -1,5 +1,5 @@
 import { AxiosError, AxiosResponse } from "axios";
-import { LoginCredentials, RegisterCredentials, UserState } from "resume-app";
+import { LoginCredential, RegisterCredentials, UserState } from "resume-app";
 import { Api } from "../../utils/api";
 import { apiConfig, API_LOGIN, API_REGISTER } from "../../utils/constants";
 
@@ -19,20 +19,19 @@ import { apiConfig, API_LOGIN, API_REGISTER } from "../../utils/constants";
  * @author Ernesto Jara Olveda
  */
 class UserApi extends Api {
-    public constructor() {
+    public constructor () {
         super(apiConfig);
 
         this.loginUser = this.loginUser.bind(this);
     }
 
     /**
+     * Generates an `HTTP POST` method to authenticate a user.
      *
-     * @param {object} credentials - user's identifications.
-     * @param {string} credentials.email - user's email.
-     * @param {string} credentials.password - user's password.
+     * @param {LoginCredential} credentials - user data to login.
      * @returns {Promise<UserState>} userState - user information,
      */
-    public loginUser(credentials: LoginCredentials): Promise<UserState> {
+    public loginUser (credentials: LoginCredential): Promise<UserState> {
         return this.post<UserState>(API_LOGIN, JSON.stringify(credentials))
             .then((response: AxiosResponse<UserState>) => {
                 const { data } = response;
@@ -44,7 +43,7 @@ class UserApi extends Api {
                     secondLastName: data.secondLastName,
                     email: data.email,
                     id: data.id,
-                    token: data.token
+                    token: data.token,
                 };
 
                 return state;
@@ -57,17 +56,10 @@ class UserApi extends Api {
     /**
      * Adds a new user into our system.
      *
-     * @param {object} RegisterCredentials - user basic info.
-     * @param {string} RegisterCredentials.firstName.
-     * @param {string} RegisterCredentials.secondName.
-     * @param {string} RegisterCredentials.lastName.
-     * @param {string} RegisterCredentials.secondLastName.
-     * @param {string} RegisterCredentials.email.
-     * @param {string} RegisterCredentials.password.
-     * @param {string} RegisterCredentials.password2.
+     * @param {RegisterCredentials} credrentials - user data.
      * @returns {Promise<number>} status code of `CREATED`.
      */
-    public registerUser(credrentials: RegisterCredentials): Promise<number> {
+    public registerUser (credrentials: RegisterCredentials): Promise<number> {
         return this.post<number>(API_REGISTER, JSON.stringify(credrentials))
             .then((registered: AxiosResponse<number>) => {
                 const { status } = registered;

@@ -41,10 +41,10 @@ export const apiConfig: AxiosRequestConfig = {
             "X-XSS-Protection": "1;mode=block",
             "X-Frame-Options": "SAMEORIGIN",
             "Content-Security-Policy": "script-src 'self'",
-            "X-Content-Type-Options": "nosniff"
-        }
+            "X-Content-Type-Options": "nosniff",
+        },
     },
-    paramsSerializer: (params) => qs.stringify(params, { indices: false })
+    paramsSerializer: (params) => qs.stringify(params, { indices: false }),
 };
 
 export const { API_LOGIN } = process.env;

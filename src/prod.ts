@@ -1,5 +1,5 @@
-require("@babel/runtime-corejs3/regenerator");
-require("@babel/register");
-require("core-js/web/index");
-require("es6-promise/dist/es6-promise.auto");
-require("./start/prod.tsx");
+import "@babel/runtime-corejs3/regenerator";
+import "@babel/register";
+import "core-js/web/index";
+import "es6-promise/dist/es6-promise.auto";
+import "./start/prod.tsx";

@@ -33,6 +33,7 @@ module.exports = function () {
                 NODE_ENV,
                 PUBLIC_URL: process.env.PUBLIC_URL,
                 GENERATE_SOURCEMAP: process.env.GENERATE_SOURCEMAP,
+                PORT: process.env.PORT
             }
         );
     const stringified = {

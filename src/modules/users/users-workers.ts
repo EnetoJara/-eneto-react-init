@@ -1,10 +1,14 @@
 import { call, put } from "redux-saga/effects";
-import { AppAction, LoginCredentials, RegisterCredentials, UserState } from "resume-app";
+import {
+    AppAction, LoginCredential, RegisterCredentials, UserState,
+} from "resume-app";
 import { LOGIN_REQUEST, REGISTER_REQUEST } from "../../utils/constants";
-import { loginFailed, loginSuccess, registerFailed, registerSuccess } from "./users-actions";
+import {
+    loginFailed, loginSuccess, registerFailed, registerSuccess,
+} from "./users-actions";
 import { userApi } from "./users-api";
 
-export function* loginWorker(action: AppAction<LOGIN_REQUEST, LoginCredentials>) {
+export function* loginWorker (action: AppAction<LOGIN_REQUEST, LoginCredential>) {
     try {
         const { payload } = action;
         const user: UserState = yield call(userApi.loginUser, payload);
@@ -14,7 +18,7 @@ export function* loginWorker(action: AppAction<LOGIN_REQUEST, LoginCredentials>)
     }
 }
 
-export function* registerWorker(action: AppAction<REGISTER_REQUEST, RegisterCredentials>) {
+export function* registerWorker (action: AppAction<REGISTER_REQUEST, RegisterCredentials>) {
     try {
         const { payload } = action;
 

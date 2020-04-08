@@ -8,28 +8,28 @@ export const initUserState: UserState = Object.freeze<UserState>({
     lastName: "",
     secondLastName: "",
     email: "",
-    token: ""
+    token: "",
 });
 
-function clean(state: UserState): UserState {
+function clean (state: UserState): UserState {
     return {
         ...state,
-        ...initUserState
+        ...initUserState,
     };
 }
 
-export function userReducer(state: UserState = initUserState, action: AppAction): UserState {
+export function userReducer (state: UserState = initUserState, action: AppAction): UserState {
     switch (action.type) {
         case LOGIN_SUCCESS:
             return {
                 ...state,
-                ...action.payload
+                ...action.payload,
             };
         case REGISTER_SUCCESS:
             return clean(state);
         default:
             return {
-                ...state
+                ...state,
             };
     }
 }
