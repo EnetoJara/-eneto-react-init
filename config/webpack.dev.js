@@ -7,7 +7,6 @@ const CaseSensitivePathsPlugin = require("case-sensitive-paths-webpack-plugin");
 const InlineChunkHtmlPlugin = require("react-dev-utils/InlineChunkHtmlPlugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 const InterpolateHtmlPlugin = require("react-dev-utils/InterpolateHtmlPlugin");
-const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
 const WatchMissingNodeModulesPlugin = require("react-dev-utils/WatchMissingNodeModulesPlugin");
 const ModuleNotFoundPlugin = require("react-dev-utils/ModuleNotFoundPlugin");
 const vars = require('./var');
@@ -22,6 +21,12 @@ module.exports = {
     name: "client",
     target: "web",
     entry: [
+        'webpack/hot/poll?100',
+        require.resolve("@babel/register"),
+        require.resolve("core-js"),
+        require.resolve("@babel/runtime/regenerator"),
+        require.resolve("react-hot-loader/patch"),
+        require.resolve("es6-promise/auto"),
         require.resolve(path.join(__dirname, '../src/dev.ts'))
     ],
     output: {
@@ -50,31 +55,7 @@ module.exports = {
             disableDotRule: true,
         },
     },
-    optimization: {
-        splitChunks: {
-            automaticNameDelimiter: "_",
-            cacheGroups: {
-                common: {
-                    name: "common",
-                    minChunks: 2,
-                    chunks: "async",
-                    priority: 10,
-                    reuseExistingChunk: true,
-                    enforce: true,
-                },
-                vendor: {
-                    name: "vendor",
-                    chunks: "all",
-                    test: /node_modules/,
-                    priority: 20,
-                },
-            },
-        },
-    },
     resolve: {
-        alias: {
-            'react-dom': '@hot-loader/react-dom',
-          },
         extensions: [".ts", ".tsx", ".js"],
     },
     module: {
@@ -158,12 +139,12 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
 
         new CaseSensitivePathsPlugin(),
-
+        new webpack.HotModuleReplacementPlugin(),
         new WatchMissingNodeModulesPlugin(path.join(__dirname, "../node_modules/")),
 
         new ManifestPlugin({
             fileName: "asset-manifest.json",
-            publicPath: "/",
+            publicPath: process.env.PUBLIC_URL,
             generate: (seed, files, entrypoints) => {
                 const manifestFiles = files.reduce((manifest, file) => {
                     manifest[file.name] = file.path;
@@ -181,17 +162,6 @@ module.exports = {
         }),
 
         new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-
-        new WorkboxWebpackPlugin.GenerateSW({
-            clientsClaim: true,
-            exclude: [/\.map$/, /asset-manifest\.json$/],
-            navigateFallback: "/index.html",
-            navigateFallbackDenylist: [
-                new RegExp("^/_"),
-
-                new RegExp("/[^/?]+\\.[^/]+$"),
-            ],
-        }),
     ].filter(Boolean),
 
     node: {

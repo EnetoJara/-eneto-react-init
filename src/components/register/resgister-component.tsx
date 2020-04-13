@@ -14,7 +14,7 @@ export class Register extends React.Component<RegisterProps, RegisterCredentials
     public constructor (props: RegisterProps) {
         super(props);
 
-        this.state ={
+        this.state = {
             firstName: "",
             secondName: "",
             lastName: "",
@@ -108,8 +108,7 @@ export class Register extends React.Component<RegisterProps, RegisterCredentials
                             error=""
                         />
                     </Column>
-                </Row>
-                <Row>
+
                     <Column>
                         <Input
                             tabIndex={-5}
@@ -145,12 +144,14 @@ export class Register extends React.Component<RegisterProps, RegisterCredentials
                     </Column>
                 </Row>
                 <Row>
-                    <Button kind="secondary" solid onClick={this.onCancelHandler}>
-                        Cancel
-                    </Button>
-                    <Button kind="primary" solid onClick={this.onSubmitHandler}>
-                        Create
-                    </Button>
+                    <Column>
+                        <Button kind="secondary" solid onClick={this.onCancelHandler}>
+                            Cancel
+                        </Button>
+                        <Button kind="primary" solid onClick={this.onSubmitHandler}>
+                            Create
+                        </Button>
+                    </Column>
                 </Row>
             </form>
         );

@@ -14,3 +14,7 @@ export const Register = Loadable({
     loader: () => import(/* webpackChunkName: "register" */ "./register-container"),
     loading: Loading,
 });
+export const Lists = Loadable({
+    loader: () => import(/* webpackChunkName: "register" */ "./list-constainer"),
+    loading: Loading,
+});

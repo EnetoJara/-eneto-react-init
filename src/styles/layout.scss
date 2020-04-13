@@ -37,6 +37,11 @@
     width: 25rem;
 }
 
+.title {
+    margin: 2rem;
+    text-align: center;
+}
+
 @include bg-cell {
     .app-layout-column {
         flex: 1

@@ -3,15 +3,18 @@ import {
     userActions, userApi, userReducer, userWatchers, userWorkers,
 } from "./users";
 
+import {listActions,listApi,listReducer, listsWatchers} from "./lists"
+
 export { pageReducer } from "./app";
 
-
 function* rootSagas () {
-    console.log('userWatchers', userWatchers);
+    const watchers= [...userWatchers, listsWatchers];
+    console.log("watchers",watchers);
 
-    yield all([...userWatchers]);
+    yield all(watchers);
 }
 
 export {
-    userActions, userApi, userReducer, userWatchers, userWorkers,rootSagas
+    userActions, userApi, userReducer, userWatchers, userWorkers, rootSagas,
+    listActions,listApi,listReducer, listsWatchers
 };

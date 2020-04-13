@@ -23,25 +23,20 @@ export type REGISTER_SUCCESS = typeof REGISTER_SUCCESS;
 export const REGISTER_FAILED = "users/register-failed";
 export type REGISTER_FAILED = typeof REGISTER_FAILED;
 
+export const GET_LISTS_REQUEST = "lists/request-all";
+export type  GET_LISTS_REQUEST = typeof GET_LISTS_REQUEST;
+export const GET_LISTS_SUCCESS = "lists/success-all";
+export type  GET_LISTS_SUCCESS = typeof GET_LISTS_SUCCESS;
+export const GET_LISTS_FAILED = "lists/failed-all";
+export type  GET_LISTS_FAILED = typeof GET_LISTS_FAILED;
+
 export const apiConfig: AxiosRequestConfig = {
-    withCredentials: true,
     timeout: 15000,
-    baseURL: process.env.ENETO_API,
+    baseURL: process.env.API_BASE,
     headers: {
         common: {
-            "Cache-Control": "no-cache, no-store, must-revalidate",
-            "Transfer-Encoding": "chucked",
-            "Accept-Ranges": "none",
-            Vary: "Accept-Econding",
-            Pragma: "no-cache",
             "Content-Type": "application/json",
-            Accept: "application/json",
-            Expires: "-1",
-            "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-            "X-XSS-Protection": "1;mode=block",
-            "X-Frame-Options": "SAMEORIGIN",
-            "Content-Security-Policy": "script-src 'self'",
-            "X-Content-Type-Options": "nosniff",
+           Accept: "application/json"
         },
     },
     paramsSerializer: (params) => qs.stringify(params, { indices: false }),

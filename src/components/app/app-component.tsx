@@ -1,11 +1,11 @@
 import * as React from "react";
 import { hot } from "react-hot-loader";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Login, Page, Register } from "../../containers";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { Login, Page, Register, Lists } from "../../containers";
 import {
     Header, Layout, Main, SideNav,
 } from "../../hoc";
-import { ROUTE_LOGIN, ROUTE_REGISTER } from "../../utils/constants";
+import { ROUTE_LOGIN, ROUTE_REGISTER, ROUTE_HOME } from "../../utils/constants";
 
 function MainComponent (): React.ReactElement {
     return (
@@ -21,8 +21,11 @@ function MainComponent (): React.ReactElement {
                     </Header>
                     <Page isAuth>
                         <Switch>
+                            <Route exact path={ROUTE_HOME} component={Lists} />
                             <Route exact path={ROUTE_LOGIN} component={Login} />
                             <Route exact path={ROUTE_REGISTER} component={Register} />
+                            <Route path={"/lists/:id"} component={Register} />
+                            <Redirect to={ROUTE_HOME} />
                         </Switch>
                     </Page>
                 </Main>

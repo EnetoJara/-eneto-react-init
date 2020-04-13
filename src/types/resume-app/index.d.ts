@@ -11,6 +11,18 @@ declare module "resume-app" {
         showSideNav: boolean;
     }
 
+    interface Lists {
+        name: string;
+        description: string;
+        id: number;
+        createdAt: Date;
+        updatedAt: Date;
+    }
+
+    interface ListState {
+        lists: Lists[]
+    }
+
     interface UserState {
         token: string;
         id: number;
@@ -29,6 +41,7 @@ declare module "resume-app" {
     interface AppState {
         user: UserState;
         app: PageState;
+        lists: ListState;
     }
 
     interface LoginStateToProps {

@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    box-sizing: $b-box;
+    box-sizing:border-box;
     width: $max-width;
     height: $max-height;
     background-color: $background-color;
@@ -25,10 +25,23 @@ body {
     color: $font-color;
 }
 
+a {
+    color: $primary-color;
+    text-decoration: none;
+}
+
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: $zero;
     padding: $zero;
 }

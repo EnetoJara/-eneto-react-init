@@ -10,23 +10,21 @@ import { unregister } from "../worker";
 
 store.runSaga(rootSagas);
 store.subscribe(() => localStorage.setItem("initApp", JSON.stringify(store.getState())));
-function init(): void {
+function init(Component: any): void {
     render(
         <AppContainer>
-            <Provider store={store}>
-                <App />
-            </Provider>
+            <Provider store={store}><Component/></Provider>
         </AppContainer>,
         document.getElementById("enetito")
     );
 }
 
-init();
+unregister();
+init(App);
 
 if (process.env.NODE_ENV === "development" && module.hot) {
     module.hot.accept("../components/app", () => {
-        init();
+        const { App } = require("../components/app/app-component");
+        init(App);
     });
 }
-
-unregister();
