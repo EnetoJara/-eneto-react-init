@@ -1,6 +1,6 @@
 {
   "name": "@eneto/react-init",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Please tell me this is not another react starter pack",
   "main": "index.js",
   "type": "commonjs",
